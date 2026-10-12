@@ -1,0 +1,11 @@
+# T05 - co dinh version de tai lap (cap nhat: pip freeze > requirements.lock.txt)
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4,<2
+matplotlib>=3.8
+semgrep>=1.100,<2
+jupyter
+streamlit>=1.30         # cho dashboard (tuan 6)
+shap>=0.44              # explainability (tuan 5)
+# PyTorch cai rieng (xem README, muc Cai dat) vi can chon ban CPU/GPU:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu

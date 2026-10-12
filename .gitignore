@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# du lieu goc va model KHONG day len GitHub
+data/raw/*
+!data/raw/**/.gitkeep
+classical_ml/models/*.pkl
+deep_learning/checkpoints/*
+*.pt
+# ket qua sinh ra khi chay
+semgrep/results/*.csv
+*/results/*.csv

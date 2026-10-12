@@ -1,0 +1,5 @@
+payload_id,input_text,label,source,technique,group_id,notes
+# Payload ne tranh - dung Tuan 3-5 (Exp.4). label=1.
+# technique: encode | ifs | env_var | unicode_lookalike | comment
+e0001,8.8.8.8%0aid,1,payloadsallthethings,encode,ip_ping,url-encoded newline
+e0002,cat${IFS}/etc/hostname,1,payloadsallthethings,ifs,cat_file,thay dau cach bang IFS
