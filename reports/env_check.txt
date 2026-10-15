@@ -1,0 +1,15 @@
+T05 env check - 2026-10-14 15:57
+OS: Linux-6.18.40.1-microsoft-standard-WSL2-x86_64-with-glibc2.39
+Python: 3.12.3 (/home/tphat/t05-command-injection-detection/.venv/bin/python)
+[OK]    virtualenv: dang bat
+
+[OK]    scikit-learn 1.9.1: char n-gram TF-IDF + LinearSVC train + predict OK
+[OK]    numpy 2.5.4
+[OK]    pandas 3.0.6
+[OK]    matplotlib 3.11.2
+[OK]    PyTorch 2.14.1+cpu (CPU): CNN-1D forward OK, output (4, 64)
+
+[OK]    semgrep: 1.180.0
+[OK]    git: git version 2.43.0
+[OK]    docker: Docker version 29.2.1, build a5c7197
+[OK]    docker daemon: dang chay
