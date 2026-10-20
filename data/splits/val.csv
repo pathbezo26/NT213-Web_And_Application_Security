@@ -1,0 +1,882 @@
+id,payload,label,source,family,category
+39d7a76a58,Có từ mỗi.,0,faker,benign_faker_sentence_vi,natural_text
+3808914dc8,%27%7C%20%5B%204%20-ne%20%24%28echo%20TYMEOG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+af77b9189d,'%7C%7Cecho$IFSYOKPWL$((89%2B42))$(echo$IFSYOKPWL)YOKPWL%7C,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+42e059c714,/javascript/listinfo.csproj,0,goodqueries_sample,goodqueries_sample__c4,none
+69a2b34fd5,/javascript/vol.phtml,0,goodqueries_sample,goodqueries_sample__c4,none
+77705cbdf8,'&&echo$IFSUGEJWF$((34%2B81))$(echo$IFSUGEJWF)UGEJWF%27,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+c925ce3338,/javascript/dclk.swf,0,goodqueries_sample,goodqueries_sample__c4,none
+70e648bda6,echo$IFSCTYHYD$((2%2B94))$(echo$IFSCTYHYD)CTYHYD%7C,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+cf5146cf99,/javascript/extern.so,0,goodqueries_sample,goodqueries_sample__c4,none
+190ad60fa5,/javascript/12.dump,0,goodqueries_sample,goodqueries_sample__c4,none
+757ee799c2,"echo%20URWVVO$((0%2B4))$(echo%20URWVVO)URWVVO""",1,command-injection-commix,command-injection-commix__c55,dollar_paren
+e7cde77e8c,value'&&ps aux',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+893867c214,/javascript/catalogs.png,0,goodqueries_sample,goodqueries_sample__c4,none
+29866c4110,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FEGQZM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c7,none
+392f54cf91,"%7Cecho$IFSATHGRY$((94%2B45))$(echo$IFSATHGRY)ATHGRY""",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+0dd2212f2d,report%0d%0apwd.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+054d5abb2e,%22%0A%20str%3D%24%28echo%20VYCNRP%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%22,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+537503f07f,/javascript/tar.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+1bf84e78b5,/javascript/caller.o,0,goodqueries_sample,goodqueries_sample__c4,none
+95527801e4,'%7C%7Cecho$IFSTXFGBP$((28%2B0))$(echo$IFSTXFGBP)TXFGBP%26,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+a2aa9f2c20,%22%26%20sleep%200%20%26%26%20str%3D%24%28echo%20ENIIMV%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c7,none
+340b8a7bc3,/javascript/printer.phtml,0,goodqueries_sample,goodqueries_sample__c4,none
+21930d7a9d,/javascript/error-log.rhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+3afe4ce03a,%7C%20%5B%208%20-ne%20%24%28echo%20GJJXKM%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+9921a073d8,%2522%26%20sleep%200%20%26%26%20str%3D%24%28echo%20UFBEAG%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+6ce26c78e4,Cũng trong lớn có nhiều để.,0,faker,benign_faker_sentence_vi,natural_text
+8ffb802cdf,%2522%7C%20%5B%208%20-ne%20%24%28echo%20DAZTLG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c28,none
+9aec71e2f5,value|ps${IFS}$9aux,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+7e77b9e011,/javascript/events.cgi,0,goodqueries_sample,goodqueries_sample__c4,none
+0302c67a50,"%7C%7Cecho$IFSPLQDHT$((81%2B8))$(echo$IFSPLQDHT)PLQDHT""",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+48bc5902c9,email-65.dang.com,0,faker,benign_faker_hostname_vi,ip_context
+19239aafd2,%26echo$IFSUUYWYN$((46%2B27))$(echo$IFSUUYWYN)UUYWYN%2F%2F,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+6bf096abe4,%27%7C%20%5B%207%20-ne%20%24%28echo%20TYMEOG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+76205c2678,/javascript/items.phtml,0,goodqueries_sample,goodqueries_sample__c4,none
+351ebf4c7b,/javascript/q.svn-base,0,goodqueries_sample,goodqueries_sample__c4,none
+dbd0cd077a,"""%7Cecho$IFSUDEEGX$((28%2B85))$(echo$IFSUDEEGX)UDEEGX""",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+57656e27fe,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20HBIFJL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c11,none
+ffa98a0596,%2522%7C%20%5B%204%20-ne%20%24%28echo%20JYVQFK%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c28,none
+c5ab3e76a3,value';cat /etc/passwd',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+ebf286774a,/javascript/11.rb,0,goodqueries_sample,goodqueries_sample__c4,none
+e42db305af,/javascript/button.tar.bz2,0,goodqueries_sample,goodqueries_sample__c4,none
+d7e649923b,/javascript/j2me.key,0,goodqueries_sample,goodqueries_sample__c4,none
+27e8eb207f,/javascript/jmx-console.rb,0,goodqueries_sample,goodqueries_sample__c4,none
+517ea8f9d8,%2522%7C%20%5B%204%20-ne%20%24%28echo%20ZDDHYL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c28,none
+8c6c64066f,/javascript/commerce.asmx,0,goodqueries_sample,goodqueries_sample__c4,none
+df7f0dc5a9,/javascript/mms.conf,0,goodqueries_sample,goodqueries_sample__c4,none
+c94688de96,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20HBIFJL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c11,none
+8a63040219,/javascript/environ.lib,0,goodqueries_sample,goodqueries_sample__c4,none
+9ac7facd9f,/javascript/mix.save,0,goodqueries_sample,goodqueries_sample__c4,none
+0f13e4058f,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FWEHDM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%209%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c7,none
+43594ede8e,/javascript/preserve.jsf,0,goodqueries_sample,goodqueries_sample__c4,none
+2c22d1005a,/javascript/deny.doc,0,goodqueries_sample,goodqueries_sample__c4,none
+d9153d4d0a,srv-22.vu.com,0,faker,benign_faker_hostname_vi,ip_context
+910e353d54,%27%7Cecho$IFSYKIMMG$((43%2B81))$(echo$IFSYKIMMG)YKIMMG,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+c1bc5eeebb,/javascript/cfide.meta,0,goodqueries_sample,goodqueries_sample__c4,none
+d2c74b523b,&echo$IFSUHFGHJ$((52%2B93))$(echo$IFSUHFGHJ)UHFGHJ',1,command-injection-commix,command-injection-commix__c39,dollar_paren
+79dfc8b74b,throw.csv,0,faker,benign_faker_filename_en,filename
+7286195d8e,value'&&uname -a',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+a5dab39871,||echo$IFSCVUUDY$((8%2B8))$(echo$IFSCVUUDY)CVUUDY,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+eda7799b05,%7C%20%5B%203%20-ne%20%24%28echo%20JNNROP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+c5e7febb43,%27%26%20sleep%200%20%26%26%20str%3D%24%28echo%20BJMMJX%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+74d6af7611,%27%0A%20str%3D%24%28echo%20BXLXVP%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%201%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%22,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+f456096454,/javascript/smtp.bak,0,goodqueries_sample,goodqueries_sample__c4,none
+b9b21b7fa9,%20echo%20KRHFKC$((96%2B42))$(echo%20KRHFKC)KRHFKC//,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+210f92104c,"{name: 'Jacob Thomas', job: 'Scientist, biomedical'}",0,faker,benign_faker_profile_en,json
+013396c33c,%2522%0A%20str%3D%24%28echo%20OUJVKX%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%7C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+da353d869f,/javascript/hu.php3,0,goodqueries_sample,goodqueries_sample__c4,none
+8d32861571,/javascript/12.vbs,0,goodqueries_sample,goodqueries_sample__c4,none
+9960d8fea5,%22%0A%20str%3D%24%28echo%20GZRNZB%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+1bfca75cce,report%0awhoami.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+e50146a7bf,"{name: 'Anne Hernandez', job: 'Barrister's clerk'}",0,faker,benign_faker_profile_en,json
+219289911e,%7C%20%5B%202%20-ne%20%24%28echo%20GSLYBH%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+717312b93e,%22%26echo$IFSUGHPED$((99%2B93))$(echo$IFSUGHPED)UGHPED%26,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+736f2ddc25,email-62.le.com,0,faker,benign_faker_hostname_vi,ip_context
+67191dfeb7,/javascript/billing.rtf,0,goodqueries_sample,goodqueries_sample__c4,none
+69eb9e8136,value'&&whoami',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+dc7c8e4c7f,%2522%0A%20str%3D%24%28echo%20NNEAQO%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%23,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+c7c204bd5a,%22%26%20sleep%200%20%26%26%20str%3D%24%28echo%20CLRJXD%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%208%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+9634ef80f0,%22%7C%20%5B%201%20-ne%20%24%28echo%20EUILIT%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c28,none
+1d25556497,echo$IFSXIHMMK$((37%2B0))$(echo$IFSXIHMMK)XIHMMK%27,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+4cf3cd2f04,Như là không như bên theo rất.,0,faker,benign_faker_sentence_vi,natural_text
+2037fb6d2c,/javascript/toolkit.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+c510636d1e,/javascript/membership.ora,0,goodqueries_sample,goodqueries_sample__c4,none
+0d0a7af15b,/javascript/traceroute.dll,0,goodqueries_sample,goodqueries_sample__c4,none
+a320828107,/javascript/tmp.jsp,0,goodqueries_sample,goodqueries_sample__c4,none
+74ac9f7393,/javascript/line.csv,0,goodqueries_sample,goodqueries_sample__c4,none
+12f97940e4,"value"";whoami""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+5c761b38c6,/javascript/b2b.sfish,0,goodqueries_sample,goodqueries_sample__c4,none
+55bfa06ff9,/javascript/team.htm,0,goodqueries_sample,goodqueries_sample__c4,none
+062687f6e2,%27%26%20sleep%200%20%26%26%20str%3D%24%28echo%20AGKSYR%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c11,none
+3046ef2e5c,/javascript/banner.java,0,goodqueries_sample,goodqueries_sample__c4,none
+55aa8ffbb9,%22%0A%20str%3D%24%28echo%20GZRNZB%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+19d44f9776,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20EEDNGD%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%208%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+82eaf558f6,/javascript/~log.conf,0,goodqueries_sample,goodqueries_sample__c4,none
+d107ad7780,/javascript/ansi.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+5a2d086d9b,/javascript/wireless.bin,0,goodqueries_sample,goodqueries_sample__c4,none
+424da80f3f,/javascript/www1.test,0,goodqueries_sample,goodqueries_sample__c4,none
+3733e21502,/javascript/consumer.jsp,0,goodqueries_sample,goodqueries_sample__c4,none
+53fb13a72b,/javascript/_test.temp,0,goodqueries_sample,goodqueries_sample__c4,none
+9012491d69,%0A%20str%3D%24%28echo%20XELPPN%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+e2038c25a8,Nếu có để cho không nào lớn.,0,faker,benign_faker_sentence_vi,natural_text
+7c62fc54ee,/javascript/hosts.shtml,0,goodqueries_sample,goodqueries_sample__c4,none
+d0ac2a0343,%2522%7C%20%5B%204%20-ne%20%24%28echo%20JLFVEC%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+8b7ed81c14,%22%7C%20%5B%203%20-ne%20%24%28echo%20TIQLNL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c28,none
+6a31b5bf14,%2527%0A%20str%3D%24%28echo%20GBKLLU%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+c507270582,/javascript/blogger.jsp,0,goodqueries_sample,goodqueries_sample__c4,none
+fdc5ace8e3,/javascript/matt.rss,0,goodqueries_sample,goodqueries_sample__c4,none
+c896f42bd1,%22%0aecho$IFSUTHJSW$((11%2B12))$(echo$IFSUTHJSW)UTHJSW%27,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+46dc238e34,/javascript/.svn/entries,0,goodqueries_sample,goodqueries_sample__c4,none
+13b14b0ca4,just.js,0,faker,benign_faker_filename_en,filename
+d78e10a140,"{name: 'Victor Baxter', job: 'Surveyor, rural practice'}",0,faker,benign_faker_profile_en,json
+9f37ed1db8,report%0acat /etc/passwd.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+fac50c3bc4,/javascript/nude.sh,0,goodqueries_sample,goodqueries_sample__c4,none
+10e836b251,/javascript/u.sfish,0,goodqueries_sample,goodqueries_sample__c4,none
+0e580398ae,/javascript/directories.class,0,goodqueries_sample,goodqueries_sample__c4,none
+2cc58ee05b,/javascript/purchase.java,0,goodqueries_sample,goodqueries_sample__c4,none
+83dbd668f6,/javascript/en_us.pem,0,goodqueries_sample,goodqueries_sample__c4,none
+f1b2e66e14,/javascript/jvm.lst,0,goodqueries_sample,goodqueries_sample__c4,none
+cad60f35c8,;echo$IFSPRIHYT$((43%2B53))$(echo$IFSPRIHYT)PRIHYT%22,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+d83e4d9997,%0A%20str%3D%24%28echo%20JLLXMB%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+858323bdd8,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KIGXDW%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c7,none
+b67634df07,/javascript/txt.nsf,0,goodqueries_sample,goodqueries_sample__c4,none
+d0a8507a0c,%2527%0A%20str%3D%24%28echo%20JKJFEG%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+b05b47c3e8,/javascript/rakefile.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+64c4840d0e,/javascript/_vti_cnf.error,0,goodqueries_sample,goodqueries_sample__c4,none
+8ec1a71d8c,/javascript/feature.err,0,goodqueries_sample,goodqueries_sample__c4,none
+a619ed93df,/javascript/pricing.test,0,goodqueries_sample,goodqueries_sample__c4,none
+fc5bb2eca4,peace.mp4,0,faker,benign_faker_filename_en,filename
+4c56f9b2c7,lt-33.bui.com,0,faker,benign_faker_hostname_vi,ip_context
+bfee5f4f1e,/javascript/xhtml.so,0,goodqueries_sample,goodqueries_sample__c4,none
+2ecee8ead3,%22%0A%20str%3D%24%28echo%20HFODHQ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%23,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+a0dc5bcda4,;echo$IFSCGVCXZ$((66%2B61))$(echo$IFSCGVCXZ)CGVCXZ,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+24880e85fb,laptop`uname -a`,1,generated,tpl_backtick__search_field,backtick
+c867c2af44,|echo$IFSYOCGJF$((96%2B37))$(echo$IFSYOCGJF)YOCGJF%22,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+528470e292,Về vì làm tại đã làm.,0,faker,benign_faker_sentence_vi,natural_text
+974ff601ca,Làm nơi này và lớn bên trong.,0,faker,benign_faker_sentence_vi,natural_text
+adb245e4a3,%2522%0A%20str%3D%24%28echo%20ZLOWUA%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+c678708860,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20LVVACM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c7,none
+17518d7f90,Lớn này nếu cũng để là lớn.,0,faker,benign_faker_sentence_vi,natural_text
+74bff86d3a,%22%7C%20%5B%205%20-ne%20%24%28echo%20TPTKGE%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c28,none
+bc5f5f0eec,value;cat${IFS}$9/etc/passwd,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+b9ea8bc252,Hơn nếu cũng có từ dưới chưa làm.,0,faker,benign_faker_sentence_vi,natural_text
+33e00cdf08,"{name: 'Jorge Barnes', job: 'Medical secretary'}",0,faker,benign_faker_profile_en,json
+6c756ffec7,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KJFZDM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+5139ac0d96,%2522%7C%20%5B%204%20-ne%20%24%28echo%20GZCIAW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c28,none
+ba651f5004,/javascript/phpeventcalendar.cfm,0,goodqueries_sample,goodqueries_sample__c4,none
+89877d23d5,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20HBIFJL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c11,none
+1ef0136566,'&echo$IFSCHNLIU$((42%2B39))$(echo$IFSCHNLIU)CHNLIU%26,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+0c05179e57,srv-00.vu.info,0,faker,benign_faker_hostname_vi,ip_context
+7c9196c01d,/javascript/libs.o,0,goodqueries_sample,goodqueries_sample__c4,none
+f73d99fea5,/javascript/snoop.fcgi,0,goodqueries_sample,goodqueries_sample__c4,none
+6ca59cf5cf,%2522%0A%20str%3D%24%28echo%20BHVRST%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+0cce67f94c,web-47.hoang.com,0,faker,benign_faker_hostname_vi,ip_context
+3ab14ddaa9,/javascript/1001.lib,0,goodqueries_sample,goodqueries_sample__c4,none
+253336359b,really.png,0,faker,benign_faker_filename_en,filename
+c672036ab5,/javascript/signup.config,0,goodqueries_sample,goodqueries_sample__c4,none
+6c1a9aa0be,%7C%20%5B%204%20-ne%20%24%28echo%20JNNROP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+ef2fbb33c8,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDTLTK%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+76e742cb30,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KJBKAZ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20,1,command-injection-commix,command-injection-commix__c11,none
+a55f38eb3a,&&echo$IFSUGBSBK$((46%2B64))$(echo$IFSUGBSBK)UGBSBK',1,command-injection-commix,command-injection-commix__c39,dollar_paren
+7b1cf40534,%7C%7Cecho$IFSULGQGO$((89%2B48))$(echo$IFSULGQGO)ULGQGO,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+e2e877316a,'%26%26echo%20EKWZHX$((96%2B4))$(echo%20EKWZHX)EKWZHX//,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+c1df68bcce,/javascript/bios.dump,0,goodqueries_sample,goodqueries_sample__c4,none
+de77edac8c,%20echo%20MIBJNK$((69%2B50))$(echo%20MIBJNK)MIBJNK%5C%5C,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+5f0e608b52,/javascript/bb.tar.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+e9473fd7f4,%22%7C%20%5B%202%20-ne%20%24%28echo%20MNLBVU%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+3b8aa731ba,value&&ps${IFS}$9aux,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+75e69263aa,/javascript/wp.bin,0,goodqueries_sample,goodqueries_sample__c4,none
+ebedfe28f8,"report
+ps aux.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+416db6d8a6,%2522%0A%20str%3D%24%28echo%20SYNSAC%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+678fe625a6,%22%7C%20%5B%203%20-ne%20%24%28echo%20CINWSA%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c28,none
+1816693241,/javascript/docs.tgz,0,goodqueries_sample,goodqueries_sample__c4,none
+00655c1a76,||echo$IFSXEGABJ$((43%2B91))$(echo$IFSXEGABJ)XEGABJ\,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+1bedd51c32,/javascript/certified.out,0,goodqueries_sample,goodqueries_sample__c4,none
+45d27e07d9,/javascript/ubuntu.jpg,0,goodqueries_sample,goodqueries_sample__c4,none
+c8a2afc4ef,/javascript/opendir.xml,0,goodqueries_sample,goodqueries_sample__c4,none
+10ab1407bc,"report
+id.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+697047f35c,/javascript/passive.pem,0,goodqueries_sample,goodqueries_sample__c4,none
+4fbebe8968,"&&echo$IFSUGIZFE$((95%2B79))$(echo$IFSUGIZFE)UGIZFE""",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+947afdfff4,"""||echo$IFSUGINJP$((61%2B39))$(echo$IFSUGINJP)UGINJP'",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+4e2c726c16,/javascript/webdata.htm,0,goodqueries_sample,goodqueries_sample__c4,none
+ca4479d41c,/javascript/enc.asp,0,goodqueries_sample,goodqueries_sample__c4,none
+a020cecb7f,"value"";ps aux""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+5cb0286a8b,lay.flac,0,faker,benign_faker_filename_en,filename
+3020f4f084,/javascript/tcl.mdb,0,goodqueries_sample,goodqueries_sample__c4,none
+6d9d286543,Của vậy vẫn với sau của gần.,0,faker,benign_faker_sentence_vi,natural_text
+476176394d,/javascript/wwwroot.config,0,goodqueries_sample,goodqueries_sample__c4,none
+9a84b28a06,/javascript/monitors.swf,0,goodqueries_sample,goodqueries_sample__c4,none
+dcb1aeb13f,/javascript/hyper.sh,0,goodqueries_sample,goodqueries_sample__c4,none
+dd9d194568,%27%26%20sleep%200%20%26%26%20str%3D%24%28echo%20BJMMJX%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+0553f14025,%26%26echo%20QOZRFB$((19%2B4))$(echo%20QOZRFB)QOZRFB,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+f1b17e1d94,/javascript/week.meta,0,goodqueries_sample,goodqueries_sample__c4,none
+d3a3e526c5,%2522%0A%20str%3D%24%28echo%20OECGFV%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+e7340ed8e1,/javascript/2003.as,0,goodqueries_sample,goodqueries_sample__c4,none
+9e3fd837f2,'&echo%20WHEUEX$((35%2B4))$(echo%20WHEUEX)WHEUEX\,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+355fbe20b6,&echo$IFSUPQDIN$((21%2B80))$(echo$IFSUPQDIN)UPQDIN//,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+8e9c151ff8,%7C%7Cecho$IFSGCTODU$((64%2B18))$(echo$IFSGCTODU)GCTODU|,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+5efac1c887,"'&echo$IFSUSKOQC$((80%2B64))$(echo$IFSUSKOQC)USKOQC""",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+3eec6148d6,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20QTRMRJ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c11,none
+667d105bc9,%7C%20%5B%201%20-ne%20%24%28echo%20GJJXKM%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+601e4d6520,%22%7C%7Cecho$IFSACDZIF$((7%2B56))$(echo$IFSACDZIF)ACDZIF&,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+81923d195e,laptop`cat /etc/passwd`,1,generated,tpl_backtick__search_field,backtick
+06393731a9,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20WQWTED%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+7e1e66c025,%22%7C%7Cecho$IFSYZFWPL$((54%2B79))$(echo$IFSYZFWPL)YZFWPL',1,command-injection-commix,command-injection-commix__c8,dollar_paren
+262c73a3ab,/javascript/vendors.bz2,0,goodqueries_sample,goodqueries_sample__c4,none
+50c93cf091,/javascript/d.tpl,0,goodqueries_sample,goodqueries_sample__c4,none
+daf94401ef,%7C%20%5B%205%20-ne%20%24%28echo%20JNNROP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+9e8d57fab5,%2522%0A%20str%3D%24%28echo%20SFURKW%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2526,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+d2b6bcd1c4,/javascript/bin.part,0,goodqueries_sample,goodqueries_sample__c4,none
+d9992d4486,/javascript/15.do,0,goodqueries_sample,goodqueries_sample__c4,none
+de70317b6d,/javascript/cute.rhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+3e3723d53c,%22%0A%20str%3D%24%28echo%20WXKPIW%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+92befba8ba,/javascript/dl.err,0,goodqueries_sample,goodqueries_sample__c4,none
+13eff21117,value;uname${IFS}$9-a,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+047692091e,/javascript/compat.tar.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+1464f875bf,Trong vẫn vài và cũng.,0,faker,benign_faker_sentence_vi,natural_text
+45e80f3037,%7C%20%5B%205%20-ne%20%24%28echo%20RZSNER%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c42,none
+e8ce289dfd,/javascript/q.sfish,0,goodqueries_sample,goodqueries_sample__c4,none
+6014a86e9e,%22%26%26echo$IFSUDIYDY$((28%2B5))$(echo$IFSUDIYDY)UDIYDY%22,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+8a09b54014,/javascript/banks.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+a37e08de4b,%7Cecho$IFSEDDVWA$((82%2B98))$(echo$IFSEDDVWA)EDDVWA&,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+644f247757,%22&echo$IFSUTHIQI$((14%2B78))$(echo$IFSUTHIQI)UTHIQI,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+415dd28ca8,";echo%20KTEBYS$((87%2B50))$(echo%20KTEBYS)KTEBYS""",1,command-injection-commix,command-injection-commix__c27,dollar_paren
+9753d5789d,/javascript/more.cnf,0,goodqueries_sample,goodqueries_sample__c4,none
+5ddae4a0ad,report%0aid.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+d42b7168c4,%26echo$IFSUTPJYK$((7%2B24))$(echo$IFSUTPJYK)UTPJYK%27,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+ed6c370d99,%22%7C%20%5B%206%20-ne%20%24%28echo%20CINWSA%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c28,none
+a6f69fba11,%7C%20%5B%201%20-ne%20%24%28echo%20PARKLW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+2842ff9f85,/javascript/prop-base.key,0,goodqueries_sample,goodqueries_sample__c4,none
+f0beb42b17,"value""&&uname -a""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+67dff1a8e1,/javascript/code.bin,0,goodqueries_sample,goodqueries_sample__c4,none
+c914c1ff7e,%2522%0A%20str%3D%24%28echo%20PWTJAU%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%22,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+75113a9d8c,/javascript/asset.cpp,0,goodqueries_sample,goodqueries_sample__c4,none
+0d1286dcd4,||echo$IFSUCPPVT$((17%2B44))$(echo$IFSUCPPVT)UCPPVT%5C%5C,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+06c26e3689,Làm nào đó trong sau.,0,faker,benign_faker_sentence_vi,natural_text
+7c62cd1ed1,/javascript/managed.ini,0,goodqueries_sample,goodqueries_sample__c4,none
+780083c26c,laptop-04.duong.info,0,faker,benign_faker_hostname_vi,ip_context
+af265e353d,echo$IFSYOOFMV$((62%2B55))$(echo$IFSYOOFMV)YOOFMV,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+7ac6504304,/javascript/logins.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+c2cf8036eb,%22%7C%20%5B%203%20-ne%20%24%28echo%20MNLBVU%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+4fd39ed7fc,/javascript/website.csproj,0,goodqueries_sample,goodqueries_sample__c4,none
+970f361328,/javascript/em.mdb,0,goodqueries_sample,goodqueries_sample__c4,none
+402574bed9,/javascript/reversed.sh,0,goodqueries_sample,goodqueries_sample__c4,none
+59b3d08706,%2522%7C%20%5B%205%20-ne%20%24%28echo%20JLFVEC%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+d9834f7fdd,right.xls,0,faker,benign_faker_filename_en,filename
+fad45c7d11,value';pwd',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+13747a8149,%2522%7C%20%5B%207%20-ne%20%24%28echo%20XHMATL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%22,1,command-injection-commix,command-injection-commix__c28,none
+5d9b433570,report%0d%0auname -a.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+c3852fedd1,change.css,0,faker,benign_faker_filename_en,filename
+d48abdb492,/javascript/1996.pl,0,goodqueries_sample,goodqueries_sample__c4,none
+102d9859dd,echo$IFSUHEKZF$((6%2B76))$(echo$IFSUHEKZF)UHEKZF&,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+8121e23729,Đã hơn số.,0,faker,benign_faker_sentence_vi,natural_text
+c91b2878de,&&echo%20ELOSZQ$((77%2B50))$(echo%20ELOSZQ)ELOSZQ|,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+c4057be030,/javascript/printer.zip,0,goodqueries_sample,goodqueries_sample__c4,none
+4781b2f37a,building.mov,0,faker,benign_faker_filename_en,filename
+f9c6298d9f,Giữa các cái hoặc có.,0,faker,benign_faker_sentence_vi,natural_text
+6d4159bb77,/javascript/graphics,0,goodqueries_sample,goodqueries_sample__c4,none
+b67ba63db2,Người giữa này có để.,0,faker,benign_faker_sentence_vi,natural_text
+104567c99e,/javascript/jessica.asmx,0,goodqueries_sample,goodqueries_sample__c4,none
+1e2c95b4c5,/javascript/readme.pl,0,goodqueries_sample,goodqueries_sample__c4,none
+2ec94c4c25,value|ls${IFS}$9-la,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+d5b301175e,group.jpg,0,faker,benign_faker_filename_en,filename
+bfcf47f275,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20TKDFPY%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+3a668d44af,db-20.dang.com,0,faker,benign_faker_hostname_vi,ip_context
+551cb55e87,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20QTRMRJ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+b68255789e,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20TKDFPY%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+248100f12e,/javascript/~guest.tar,0,goodqueries_sample,goodqueries_sample__c4,none
+f650a5ceea,db-25.le.com,0,faker,benign_faker_hostname_vi,ip_context
+510db35cd9,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KMQXRC%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c11,none
+82f8eccc51,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20WQWTED%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%208%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+080c190825,%2522%26%20sleep%200%20%26%26%20str%3D%24%28echo%20VAVICY%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c7,none
+39989f0907,/javascript/access-log.1.dll,0,goodqueries_sample,goodqueries_sample__c4,none
+2c3e3475ca,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20LVVACM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c7,none
+7575cc374a,%7C%20%5B%209%20-ne%20%24%28echo%20PARKLW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+569d0314eb,/javascript/configs.msg,0,goodqueries_sample,goodqueries_sample__c4,none
+c9f234f595,/javascript/controller.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+e763c0b249,%27%0A%20str%3D%24%28echo%20FXCZOR%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2526,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+cf68e4890b,"""||echo$IFSCCZBZV$((42%2B82))$(echo$IFSCCZBZV)CCZBZV",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+ad538d3215,%2522%7C%20%5B%209%20-ne%20%24%28echo%20NREISI%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+7af24df5e9,"{name: 'Mr. James Frye MD', job: 'Adult guidance worker'}",0,faker,benign_faker_profile_en,json
+804660c6d1,%27%3Becho%20AWVIEM$((26%2B50))$(echo%20AWVIEM)AWVIEM\,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+ee52b7e19a,"""%7Cecho$IFSYTBSTS$((24%2B38))$(echo$IFSYTBSTS)YTBSTS|",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+c70def2141,/javascript/software.cc,0,goodqueries_sample,goodqueries_sample__c4,none
+b9aa80e232,|echo$IFSYOKOTJ$((77%2B9))$(echo$IFSYOKOTJ)YOKOTJ%7C,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+2ed9f91409,"{name: 'Scott Hester', job: 'Haematologist'}",0,faker,benign_faker_profile_en,json
+b57a614b36,"report
+cat /etc/passwd.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+aab7c7e2aa,""";echo$IFSAJPXYF$((20%2B50))$(echo$IFSAJPXYF)AJPXYF%26",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+3233f0d63d,%22%7C%20%5B%202%20-ne%20%24%28echo%20BLTNIK%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c28,none
+d85c954130,Bạn cũng để nếu như và.,0,faker,benign_faker_sentence_vi,natural_text
+7dfd054a91,/javascript/dtd.c,0,goodqueries_sample,goodqueries_sample__c4,none
+ceb0924ab1,%22%7C%7Cecho$IFSZCCTFB$((82%2B55))$(echo$IFSZCCTFB)ZCCTFB//,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+7c85fc8986,/javascript/hop.yml,0,goodqueries_sample,goodqueries_sample__c4,none
+42b719db17,/javascript/reports.tar.gz,0,goodqueries_sample,goodqueries_sample__c4,none
+de2391e49d,Như cũng để để đến bên mà.,0,faker,benign_faker_sentence_vi,natural_text
+fa8c28c2bd,%26%26echo$IFSCJZPXI$((34%2B11))$(echo$IFSCJZPXI)CJZPXI&,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+d2f85302c9,/javascript/requisition.so,0,goodqueries_sample,goodqueries_sample__c4,none
+285663f81d,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FEGQZM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%209%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c7,none
+bee9f53e95,/javascript/remove.rss,0,goodqueries_sample,goodqueries_sample__c4,none
+f7593bce19,%22%0A%20str%3D%24%28echo%20VYCNRP%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%22,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+39e993b10b,"value"";uname -a""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+d872d33251,laptop-85.hoang.biz,0,faker,benign_faker_hostname_vi,ip_context
+be96b5d225,/javascript/core.c,0,goodqueries_sample,goodqueries_sample__c4,none
+64e8e0d3d0,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KJBKAZ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%208%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20,1,command-injection-commix,command-injection-commix__c11,none
+1aaecd658a,%27|echo$IFSUJIVOM$((80%2B49))$(echo$IFSUJIVOM)UJIVOM,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+d5720fe07c,laptop`ls -la`,1,generated,tpl_backtick__search_field,backtick
+d95b840219,/javascript/card.dump,0,goodqueries_sample,goodqueries_sample__c4,none
+05b26c97b7,report%0auname -a.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+65604c24cf,Cách tại trong hoặc.,0,faker,benign_faker_sentence_vi,natural_text
+47086570bb,/javascript/publications.properties,0,goodqueries_sample,goodqueries_sample__c4,none
+23a34665bd,skin.flac,0,faker,benign_faker_filename_en,filename
+6aac81c26a,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20LVVACM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c7,none
+5944969c05,/javascript/page.ini,0,goodqueries_sample,goodqueries_sample__c4,none
+141ab81932,/javascript/flags.csv,0,goodqueries_sample,goodqueries_sample__c4,none
+076a0ea62f,"""%20echo%20JKBAUZ$((16%2B4))$(echo%20JKBAUZ)JKBAUZ%27",1,command-injection-commix,command-injection-commix__c55,dollar_paren
+0fee9aee81,"{name: 'Caitlin Parks', job: 'Higher education careers adviser'}",0,faker,benign_faker_profile_en,json
+4116e7d11f,%27%26%20sleep%200%20%26%26%20str%3D%24%28echo%20AGKSYR%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c11,none
+58b37ca3ac,however.avi,0,faker,benign_faker_filename_en,filename
+55485cc711,"{name: 'Erin Simmons', job: 'Restaurant manager, fast food'}",0,faker,benign_faker_profile_en,json
+507e93325b,%22%0A%20str%3D%24%28echo%20ROWALZ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+41c6b3a269,%2522%7C%20%5B%202%20-ne%20%24%28echo%20JUHLQP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+a93bcd2b24,%2527%0A%20str%3D%24%28echo%20RQFVAS%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+42691e5e49,%2522%0A%20str%3D%24%28echo%20OECGFV%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%202%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+8b77384844,/javascript/input.test,0,goodqueries_sample,goodqueries_sample__c4,none
+411efdf467,/javascript/player.asp,0,goodqueries_sample,goodqueries_sample__c4,none
+3480e703e0,%27%0A%20str%3D%24%28echo%20JQNEXE%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+31638f6832,report%0aps aux.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+ee891fe24b,value';whoami',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+a0aa3bde1d,desktop-76.le.com,0,faker,benign_faker_hostname_vi,ip_context
+80926e3731,%7Cecho$IFSWGMKFN$((19%2B9))$(echo$IFSWGMKFN)WGMKFN\,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+8868eb9cb7,draw.pages,0,faker,benign_faker_filename_en,filename
+cb493f06f4,Trong hơn hoặc và thay được.,0,faker,benign_faker_sentence_vi,natural_text
+9920bae4ca,late.mp3,0,faker,benign_faker_filename_en,filename
+c7453c001b,/javascript/,0,goodqueries_sample,goodqueries_sample__c4,none
+dd4853c3e1,/javascript/simple,0,goodqueries_sample,goodqueries_sample__c4,none
+740fb6c7d1,/javascript/dummy.xslt,0,goodqueries_sample,goodqueries_sample__c4,none
+585cc2856e,%2522%7C%20%5B%206%20-ne%20%24%28echo%20EHUILY%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c28,none
+8c2f1b6e86,/javascript/wtai.rss,0,goodqueries_sample,goodqueries_sample__c4,none
+4c70f6735d,/javascript/httpd.tpl,0,goodqueries_sample,goodqueries_sample__c4,none
+39a6237508,%7C%7Cecho$IFSCJGMRV$((68%2B61))$(echo$IFSCJGMRV)CJGMRV&,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+ee469f1fdb,%22%7C%20%5B%208%20-ne%20%24%28echo%20TIQLNL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c28,none
+8d7e971cbe,/javascript/enterprise.war,0,goodqueries_sample,goodqueries_sample__c4,none
+9c67ce99ee,/javascript/maestro.ws,0,goodqueries_sample,goodqueries_sample__c4,none
+5e8c43b9ce,%0A%20str%3D%24%28echo%20KQPSND%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+d4b3b3a1e0,%22|echo$IFSFHBVSW$((89%2B96))$(echo$IFSFHBVSW)FHBVSW,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+0210a618cc,/javascript/6.config,0,goodqueries_sample,goodqueries_sample__c4,none
+a935328cbc,/javascript/2002.rss,0,goodqueries_sample,goodqueries_sample__c4,none
+3db6740ab9,%0A%20str%3D%24%28echo%20OGEKGC%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+38cb940915,%7C%7Cecho$IFSAEFKTR$((17%2B29))$(echo$IFSAEFKTR)AEFKTR%7C,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+d396eb514e,%7Cecho$IFSUXKUGT$((68%2B89))$(echo$IFSUXKUGT)UXKUGT%5C%5C,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+cba19d7605,value&&cat${IFS}$9/etc/passwd,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+8e6741852f,through.mp3,0,faker,benign_faker_filename_en,filename
+31cf1ec43b,%2527%0A%20str%3D%24%28echo%20JKJFEG%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%204%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+dca06aef6c,value';uname -a',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+e39c8f2a5e,"{name: 'Curtis Maynard', job: 'Location manager'}",0,faker,benign_faker_profile_en,json
+690355245a,/javascript/paypal.sql,0,goodqueries_sample,goodqueries_sample__c4,none
+dcdafd5090,Sau người điều khi một thì giống.,0,faker,benign_faker_sentence_vi,natural_text
+be1e75285e,/javascript/catinfo.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+19e8b0d4f9,/javascript/priv.conf,0,goodqueries_sample,goodqueries_sample__c4,none
+dfa887ad97,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FOKDAL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+bbaf36e324,'%0aecho$IFSUZEOGM$((31%2B46))$(echo$IFSUZEOGM)UZEOGM&,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+9370397f6e,report%0d%0awhoami.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+7676836a74,%22%7C%20%5B%202%20-ne%20%24%28echo%20TIQLNL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c28,none
+d3aa34145f,%2522%7C%20%5B%206%20-ne%20%24%28echo%20JRAZZA%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c28,none
+647d1f2508,%0aecho$IFSUEAGEW$((73%2B31))$(echo$IFSUEAGEW)UEAGEW,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+4fc2625594,%7C%20%5B%205%20-ne%20%24%28echo%20EHXCTP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c42,none
+23a30571ce,Của đang một bên bạn.,0,faker,benign_faker_sentence_vi,natural_text
+7a7b6f63a7,web-43.tran.info,0,faker,benign_faker_hostname_vi,ip_context
+836aeb5a88,single.wav,0,faker,benign_faker_filename_en,filename
+1ec8a467eb,/javascript/notifier.xml,0,goodqueries_sample,goodqueries_sample__c4,none
+8db515a89f,%22%7Cecho$IFSHVKNCE$((69%2B89))$(echo$IFSHVKNCE)HVKNCE//,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+48d363a631,/javascript/general.err,0,goodqueries_sample,goodqueries_sample__c4,none
+26e5f4843a,Thế sau một hơn.,0,faker,benign_faker_sentence_vi,natural_text
+3b66433df8,%22%7Cecho$IFSHASPPT$((51%2B64))$(echo$IFSHASPPT)HASPPT,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+09236809f4,/javascript/viewtopic.pdf,0,goodqueries_sample,goodqueries_sample__c4,none
+387344eb04,/javascript/seed.rtf,0,goodqueries_sample,goodqueries_sample__c4,none
+cc27d1497b,email-92.le.net,0,faker,benign_faker_hostname_vi,ip_context
+bf7cdd2710,%2522%0A%20str%3D%24%28echo%20SYNSAC%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+df23fa0932,case.pdf,0,faker,benign_faker_filename_en,filename
+a8aac78fe1,"value""&&whoami""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+75bdec3e33,Hơn một vì các nào tại.,0,faker,benign_faker_sentence_vi,natural_text
+2161385cd7,%27%0A%20str%3D%24%28echo%20ROEZHE%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+bd3f81de65,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDTLTK%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+203814fd25,/javascript/synced.png,0,goodqueries_sample,goodqueries_sample__c4,none
+a6869eb967,%2527%0A%20str%3D%24%28echo%20NZALSY%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+0ec2c04c14,approach.txt,0,faker,benign_faker_filename_en,filename
+91bafca9d5,/javascript/error-log.meta,0,goodqueries_sample,goodqueries_sample__c4,none
+94a82d62d2,value;ps${IFS}$9aux,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+11a9f50c48,value';ls -la',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+6fd87cd4c9,/javascript/test3.zip,0,goodqueries_sample,goodqueries_sample__c4,none
+173b2ee2b4,Về đi là như.,0,faker,benign_faker_sentence_vi,natural_text
+73184271b9,/javascript/media.py,0,goodqueries_sample,goodqueries_sample__c4,none
+5c0fee75de,%27%7C%20%5B%209%20-ne%20%24%28echo%20TYMEOG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+7f141965e2,Tại thay làm đi cũng về.,0,faker,benign_faker_sentence_vi,natural_text
+c6cc46fc65,%22%3Becho$IFSUGGAXQ$((15%2B25))$(echo$IFSUGGAXQ)UGGAXQ,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+54c2bd74e0,%22%7C%20%5B%204%20-ne%20%24%28echo%20YPWXZB%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c28,none
+6d79780530,%22%7Cecho$IFSUSGSMP$((39%2B12))$(echo$IFSUSGSMP)USGSMP%27,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+6f1cc1f2e5,%27%7C%20%5B%205%20-ne%20%24%28echo%20JTXVKL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c42,none
+8b64ab59d6,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XGXYKB%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c11,none
+7a52596b58,Nhưng đi hơn.,0,faker,benign_faker_sentence_vi,natural_text
+5467efc3e5,desktop-54.mai.com,0,faker,benign_faker_hostname_vi,ip_context
+c4121123ba,Và tại làm mà khi.,0,faker,benign_faker_sentence_vi,natural_text
+d963abb7bc,/javascript/webdb.pdf,0,goodqueries_sample,goodqueries_sample__c4,none
+5f3c201b34,"%3Becho$IFSUSDTON$((86%2B41))$(echo$IFSUSDTON)USDTON""",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+f8c382307c,lt-07.vu.com,0,faker,benign_faker_hostname_vi,ip_context
+62f687a184,/javascript/computers.7z,0,goodqueries_sample,goodqueries_sample__c4,none
+4230fe218f,%22%7C%20%5B%205%20-ne%20%24%28echo%20PMDMJZ%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c28,none
+958df5c1c1,%7C%7Cecho$IFSCPXZIZ$((42%2B75))$(echo$IFSCPXZIZ)CPXZIZ%5C%5C,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+e3b28442fc,%22%0A%20str%3D%24%28echo%20ROWALZ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+256befde23,/javascript/l.rar,0,goodqueries_sample,goodqueries_sample__c4,none
+3a0a0f48b8,db-06.bui.info,0,faker,benign_faker_hostname_vi,ip_context
+4f776a997d,/javascript/manifest.rhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+2dc8f7e1bb,%22%26%20sleep%200%20%26%26%20str%3D%24%28echo%20CLRJXD%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+f374d12444,%22%0A%20str%3D%24%28echo%20GZRNZB%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%202%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+fe439648ee,/javascript/vol.so,0,goodqueries_sample,goodqueries_sample__c4,none
+f604ec9a3d,/javascript/directories.as,0,goodqueries_sample,goodqueries_sample__c4,none
+7823475f20,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FWEHDM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c7,none
+176d4dee71,%2522%0A%20str%3D%24%28echo%20OECGFV%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+bc92d2d5cd,/javascript/standard.jpg,0,goodqueries_sample,goodqueries_sample__c4,none
+fa05e12b84,/javascript/share.cgi,0,goodqueries_sample,goodqueries_sample__c4,none
+9d207d168f,%27%0A%20str%3D%24%28echo%20PAACLD%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+0d4a5e3200,%0A%20str%3D%24%28echo%20SRSAFA%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+b192e0e841,/javascript/group.cfg,0,goodqueries_sample,goodqueries_sample__c4,none
+18256ba875,%7Cecho$IFSFUOWKT$((11%2B83))$(echo$IFSFUOWKT)FUOWKT',1,command-injection-commix,command-injection-commix__c8,dollar_paren
+220e4c9e8a,%22%0A%20str%3D%24%28echo%20GZRNZB%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+4729da6091,/javascript/program.do,0,goodqueries_sample,goodqueries_sample__c4,none
+249fb520db,/javascript/test-env.zip,0,goodqueries_sample,goodqueries_sample__c4,none
+d6bb871f52,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20SZMRAM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+ae3b7d01d2,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20WQWTED%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+04477f3e10,/javascript/maven.core,0,goodqueries_sample,goodqueries_sample__c4,none
+0e0aaa13ce,%2527%0A%20str%3D%24%28echo%20NZALSY%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+067204d86c,%2522%0A%20str%3D%24%28echo%20OECGFV%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+b5dd7f2718,/javascript/ordered.cs,0,goodqueries_sample,goodqueries_sample__c4,none
+350d22d6c3,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20BFQFHB%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c7,none
+aae9ff86f5,"""||echo$IFSXECQXX$((94%2B39))$(echo$IFSXECQXX)XECQXX""",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+8c754163ff,%2522%7C%20%5B%207%20-ne%20%24%28echo%20BWWRBC%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c28,none
+54342921b8,Bạn bên để điều nhiều.,0,faker,benign_faker_sentence_vi,natural_text
+8c92365728,/javascript/y.lib,0,goodqueries_sample,goodqueries_sample__c4,none
+e8cac9fcb9,/javascript/access.1.lib,0,goodqueries_sample,goodqueries_sample__c4,none
+61267bfea8,report%0d%0aps aux.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+91ad7b9759,/javascript/oa_servlets.bz2,0,goodqueries_sample,goodqueries_sample__c4,none
+0f0a883287,%22%0A%20str%3D%24%28echo%20LOCFPZ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+6e3ddc0710,%7C%20%5B%209%20-ne%20%24%28echo%20GJJXKM%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+95cb898a51,/javascript/strut.cgi,0,goodqueries_sample,goodqueries_sample__c4,none
+68b0a4cbeb,&&echo$IFSCAAYWG$((20%2B2))$(echo$IFSCAAYWG)CAAYWG%22,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+305dabbc57,%2522%0A%20str%3D%24%28echo%20HFKZYC%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+5343917841,/javascript/secure.dll,0,goodqueries_sample,goodqueries_sample__c4,none
+ecf1125d95,/javascript/headers.tgz,0,goodqueries_sample,goodqueries_sample__c4,none
+b086c5a367,Tại không với điều.,0,faker,benign_faker_sentence_vi,natural_text
+5f9e4f0309,email-15.vu.org,0,faker,benign_faker_hostname_vi,ip_context
+0860cb5457,%2522%0A%20str%3D%24%28echo%20SYNSAC%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%204%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+b603965132,%7C%20%5B%206%20-ne%20%24%28echo%20JNNROP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+ab1331e245,/javascript/emea.cc,0,goodqueries_sample,goodqueries_sample__c4,none
+7373d0d324,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20WQWTED%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+e5a9d6b8d6,/javascript/body.csproj,0,goodqueries_sample,goodqueries_sample__c4,none
+0081bd9ea2,/javascript/advertise.java,0,goodqueries_sample,goodqueries_sample__c4,none
+11a9054068,/javascript/png.asp,0,goodqueries_sample,goodqueries_sample__c4,none
+8e74ef48bd,health.mp3,0,faker,benign_faker_filename_en,filename
+38010a534e,%27%26%26echo%20SLPZUK$((69%2B4))$(echo%20SLPZUK)SLPZUK\,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+ac38b470ba,echo$IFSWBZKTL$((54%2B51))$(echo$IFSWBZKTL)WBZKTL|,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+56d7e625c0,Nếu của đến từ đang tại khiến.,0,faker,benign_faker_sentence_vi,natural_text
+56eb74d8aa,%22||echo$IFSUMCJZQ$((83%2B7))$(echo$IFSUMCJZQ)UMCJZQ%22,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+d6ade852a4,/javascript/transaction.cpp,0,goodqueries_sample,goodqueries_sample__c4,none
+901537360f,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FOKDAL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+3ffcd69052,%7C%20%5B%205%20-ne%20%24%28echo%20GSLYBH%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+3bdc99fe9d,echo$IFSRDFLJS$((32%2B99))$(echo$IFSRDFLJS)RDFLJS//,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+061ec75a66,%27%26echo$IFSUEVCYJ$((85%2B1))$(echo$IFSUEVCYJ)UEVCYJ,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+70deb7457c,'%0aecho$IFSUOWFKR$((67%2B63))$(echo$IFSUOWFKR)UOWFKR,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+7795c8811b,/javascript/docroot.pfx,0,goodqueries_sample,goodqueries_sample__c4,none
+80fb5fe4c5,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDAIBC%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c11,none
+ed3089c5b7,%27%0A%20str%3D%24%28echo%20PAACLD%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%204%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+1cb4106be3,/javascript/mp3s.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+e9f44383c6,Này thế vì.,0,faker,benign_faker_sentence_vi,natural_text
+accfc0d1cd,%2522%0A%20str%3D%24%28echo%20IWTYRE%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%202%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%5C%5C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+5c7a859bf3,%2527%0A%20str%3D%24%28echo%20NZALSY%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%204%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+fb906094e7,db-45.dang.com,0,faker,benign_faker_hostname_vi,ip_context
+15ed333ac8,/javascript/php.tpl,0,goodqueries_sample,goodqueries_sample__c4,none
+fcba8a4bf1,%7C%7Cecho$IFSHIOXYU$((5%2B45))$(echo$IFSHIOXYU)HIOXYU,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+fc73ed62ae,/javascript/procure.vbs,0,goodqueries_sample,goodqueries_sample__c4,none
+4ce5309198,/javascript/zencart.old,0,goodqueries_sample,goodqueries_sample__c4,none
+8badd9ba86,/javascript/ows.pm,0,goodqueries_sample,goodqueries_sample__c4,none
+41b8859d1b,/javascript/free.as,0,goodqueries_sample,goodqueries_sample__c4,none
+35fc9ec11c,"""&&echo$IFSULAPAW$((32%2B88))$(echo$IFSULAPAW)ULAPAW%22",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+0b6d107344,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20YXUPUJ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+aca420a6b8,value'&&pwd',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+fa07b4b09d,/javascript/wap.txt,0,goodqueries_sample,goodqueries_sample__c4,none
+6a82abe89b,%22%7C%20%5B%201%20-ne%20%24%28echo%20GBBAUV%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+21290f05f1,/javascript/ini.jsf,0,goodqueries_sample,goodqueries_sample__c4,none
+06078e7e5c,%2522%26%20sleep%200%20%26%26%20str%3D%24%28echo%20UFBEAG%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+0c536becab,%27%0A%20str%3D%24%28echo%20JQNEXE%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+a7459e6b6a,/javascript/monitors.c,0,goodqueries_sample,goodqueries_sample__c4,none
+f54497c95f,/javascript/nsf.tpl,0,goodqueries_sample,goodqueries_sample__c4,none
+67e253c0c0,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20YXUPUJ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%202%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+12e84d90a3,/javascript/word.tar,0,goodqueries_sample,goodqueries_sample__c4,none
+c7d51a4332,%2522%0A%20str%3D%24%28echo%20JLTOOU%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%26,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+7d41795366,'|echo$IFSUDMWDN$((49%2B29))$(echo$IFSUDMWDN)UDMWDN%22,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+759a7c6453,participant.docx,0,faker,benign_faker_filename_en,filename
+d137eeebd6,/javascript/tips.rhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+b9eed2aa8a,/javascript/admin-console.save,0,goodqueries_sample,goodqueries_sample__c4,none
+364ec7fced,%22|echo$IFSYOKEXI$((60%2B52))$(echo$IFSYOKEXI)YOKEXI',1,command-injection-commix,command-injection-commix__c39,dollar_paren
+57578aaac2,|echo$IFSIEVIHG$((35%2B50))$(echo$IFSIEVIHG)IEVIHG%22,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+3bc7b9810e,/javascript/se.html,0,goodqueries_sample,goodqueries_sample__c4,none
+86a17e043a,%22%7C%20%5B%208%20-ne%20%24%28echo%20EUILIT%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c28,none
+e766201ceb,Thay sau với.,0,faker,benign_faker_sentence_vi,natural_text
+89e66e84a9,laptop`pwd`,1,generated,tpl_backtick__search_field,backtick
+f178e65d9f,/javascript/software.do,0,goodqueries_sample,goodqueries_sample__c4,none
+88241fe6de,%2522%7C%20%5B%207%20-ne%20%24%28echo%20ZDDHYL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c28,none
+4295622384,"value""&&ps aux""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+ec49404350,/javascript/signoff.ppt,0,goodqueries_sample,goodqueries_sample__c4,none
+2aaefb0ad0,%22%7C%20%5B%204%20-ne%20%24%28echo%20GBBAUV%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+272e616011,%7C%20%5B%205%20-ne%20%24%28echo%20PARKLW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+0223620f26,%22%7C%20%5B%206%20-ne%20%24%28echo%20TPTKGE%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c28,none
+3b0a82b6b4,%22%7C%20%5B%206%20-ne%20%24%28echo%20ADQAHN%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c28,none
+e526eae01e,/javascript/property.cfg,0,goodqueries_sample,goodqueries_sample__c4,none
+2e32cbd22e,/javascript/pg.rar,0,goodqueries_sample,goodqueries_sample__c4,none
+f5d60496b2,value|cat${IFS}$9/etc/passwd,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+0829676187,/javascript/cc.conf,0,goodqueries_sample,goodqueries_sample__c4,none
+96f7e3e563,%2527%0A%20str%3D%24%28echo%20GGPYAR%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+4d9a302436,value&&ls${IFS}$9-la,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+d774e67e55,%2522%7C%20%5B%201%20-ne%20%24%28echo%20NREISI%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+1e8c580e4a,"{name: 'Rodney Jones', job: 'Restaurant manager'}",0,faker,benign_faker_profile_en,json
+1ed33c608b,/javascript/em.rss,0,goodqueries_sample,goodqueries_sample__c4,none
+734a557faa,/javascript/fuckoff.vb,0,goodqueries_sample,goodqueries_sample__c4,none
+c15daeb115,/javascript/layout.orig,0,goodqueries_sample,goodqueries_sample__c4,none
+d320660c1e,%22%7C%20%5B%201%20-ne%20%24%28echo%20XWWMIW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c28,none
+ce61a3473e,%2522%7C%20%5B%206%20-ne%20%24%28echo%20ZDDHYL%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c28,none
+ca8e05b748,/javascript/tmpl.part,0,goodqueries_sample,goodqueries_sample__c4,none
+c0a8796793,%22%7C%7Cecho$IFSBVGJOE$((17%2B25))$(echo$IFSBVGJOE)BVGJOE\,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+075829276f,%27%0aecho$IFSXIUKHX$((92%2B44))$(echo$IFSXIUKHX)XIUKHX',1,command-injection-commix,command-injection-commix__c8,dollar_paren
+70484aa016,%7C%20%5B%204%20-ne%20%24%28echo%20GJJXKM%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+4ffa17e4c8,%22%0A%20str%3D%24%28echo%20ROWALZ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+818d790975,desktop-01.hoang.org,0,faker,benign_faker_hostname_vi,ip_context
+d030d85990,srv-79.le.com,0,faker,benign_faker_hostname_vi,ip_context
+cb554594db,%7Cecho$IFSEQEOTH$((5%2B24))$(echo$IFSEQEOTH)EQEOTH//,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+51833f59f1,%7Cecho$IFSLBCAYT$((13%2B58))$(echo$IFSLBCAYT)LBCAYT%7C,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+2c4d9e925c,/javascript/stored.so,0,goodqueries_sample,goodqueries_sample__c4,none
+d74a13b5f0,'%0aecho$IFSWHMVQH$((51%2B53))$(echo$IFSWHMVQH)WHMVQH//,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+dfa8c51b17,echo$IFSUPLBDT$((24%2B49))$(echo$IFSUPLBDT)UPLBDT\,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+d870387a37,Đó đã gần sẽ đó để.,0,faker,benign_faker_sentence_vi,natural_text
+eeffdd42b6,Cho nhiều vì như nơi.,0,faker,benign_faker_sentence_vi,natural_text
+15a59ae48a,/javascript/net.cgi,0,goodqueries_sample,goodqueries_sample__c4,none
+67cbccbde4,/javascript/citrix.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+8d72017b3a,/javascript/rendered.jsp,0,goodqueries_sample,goodqueries_sample__c4,none
+c6ce7c3822,/javascript/logging,0,goodqueries_sample,goodqueries_sample__c4,none
+c87f70fa76,Cái của để giữa vẫn hoặc của như.,0,faker,benign_faker_sentence_vi,natural_text
+67380648ac,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20LVMWXB%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+b35de541cd,/javascript/image.pfx,0,goodqueries_sample,goodqueries_sample__c4,none
+a3e6597c1c,&echo$IFSWBYLPB$((80%2B54))$(echo$IFSWBYLPB)WBYLPB%27,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+50d831254b,/javascript/configs.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+2a986b26bb,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FOKDAL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%209%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+bcf6c0607b,%22%7C%20%5B%208%20-ne%20%24%28echo%20TPTKGE%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c28,none
+8e302222da,/javascript/cpanel.class,0,goodqueries_sample,goodqueries_sample__c4,none
+c20cb1b553,%22%7C%20%5B%201%20-ne%20%24%28echo%20ADQAHN%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c28,none
+9c2cc22dfe,/javascript/reports.tgz,0,goodqueries_sample,goodqueries_sample__c4,none
+4b0447e9e5,/javascript/msft.db,0,goodqueries_sample,goodqueries_sample__c4,none
+9d738e84ac,Trong hoặc để vậy.,0,faker,benign_faker_sentence_vi,natural_text
+66455e0913,/javascript/14.tar,0,goodqueries_sample,goodqueries_sample__c4,none
+dd1500e1bd,/javascript/_js.lib,0,goodqueries_sample,goodqueries_sample__c4,none
+8d167761c3,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDTLTK%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+e77fac65b4,/javascript/h.xml,0,goodqueries_sample,goodqueries_sample__c4,none
+5256dba130,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20YXUPUJ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+dce21aeb61,%7C%7Cecho$IFSTGFHRF$((49%2B19))$(echo$IFSTGFHRF)TGFHRF//,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+b748045d83,/javascript/admin-console.asp,0,goodqueries_sample,goodqueries_sample__c4,none
+8c1c3bb954,/javascript/outline.cc,0,goodqueries_sample,goodqueries_sample__c4,none
+31d39d27c8,/javascript/dbmodules.sfish,0,goodqueries_sample,goodqueries_sample__c4,none
+76981e5286,%22&&echo$IFSUTEHBK$((73%2B4))$(echo$IFSUTEHBK)UTEHBK|,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+cd5f465e2d,%22%7C%20%5B%209%20-ne%20%24%28echo%20MNLBVU%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+1e8847f77f,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20JDGURS%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c11,none
+4051d8e429,/javascript/felix.old,0,goodqueries_sample,goodqueries_sample__c4,none
+a486863b69,report%0apwd.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+100be86ffb,/javascript/custom-log.old,0,goodqueries_sample,goodqueries_sample__c4,none
+858f58f309,/javascript/authors.save,0,goodqueries_sample,goodqueries_sample__c4,none
+7b947c87da,/javascript/sched.tmp,0,goodqueries_sample,goodqueries_sample__c4,none
+6e929a97c6,/javascript/family.sql,0,goodqueries_sample,goodqueries_sample__c4,none
+ecc9cf8532,||echo$IFSUNKBIA$((84%2B96))$(echo$IFSUNKBIA)UNKBIA%7C,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+5d5d98d999,/javascript/mms.stackdump,0,goodqueries_sample,goodqueries_sample__c4,none
+4f868b485e,forget.pages,0,faker,benign_faker_filename_en,filename
+fa60a22b3a,/javascript/sm.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+8cffff40f7,/javascript/sav.tar,0,goodqueries_sample,goodqueries_sample__c4,none
+d7ee29dd21,/javascript/logging.bak,0,goodqueries_sample,goodqueries_sample__c4,none
+9b8d6b2cf7,/javascript/select.vb,0,goodqueries_sample,goodqueries_sample__c4,none
+e858a123ce,;echo$IFSXAJUQV$((80%2B48))$(echo$IFSXAJUQV)XAJUQV,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+e364e9f612,Có thì tôi thay giống điều đang.,0,faker,benign_faker_sentence_vi,natural_text
+711bb3d091,value'&&ls -la',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+367616dfde,/javascript/mp.err,0,goodqueries_sample,goodqueries_sample__c4,none
+945ba54429,/javascript/grant.htm,0,goodqueries_sample,goodqueries_sample__c4,none
+4029bf1ab2,"{name: 'Jeffrey Roberson', job: 'Learning disability nurse'}",0,faker,benign_faker_profile_en,json
+c82039abf3,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20PRKGES%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c11,none
+c4c823dfbb,%7Cecho$IFSREQHRF$((82%2B40))$(echo$IFSREQHRF)REQHRF|,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+556a5e1689,/javascript/request.tmp,0,goodqueries_sample,goodqueries_sample__c4,none
+5fb6130200,%2522%0A%20str%3D%24%28echo%20TNOFGN%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+746c9d407a,/javascript/imp,0,goodqueries_sample,goodqueries_sample__c4,none
+112036a3e0,sound.key,0,faker,benign_faker_filename_en,filename
+67742ace77,/javascript/sws.vbs,0,goodqueries_sample,goodqueries_sample__c4,none
+e578541f1b,%22%7C%20%5B%207%20-ne%20%24%28echo%20PMDMJZ%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c28,none
+f717e5a244,%2522%0A%20str%3D%24%28echo%20BHVRST%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+37e1044279,%2522%7C%20%5B%205%20-ne%20%24%28echo%20JYVQFK%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c28,none
+e3c420f21e,"report
+uname -a.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+71e2b935d8,/javascript/w3c.jhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+c84ec2c36c,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KMQXRC%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%201%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c11,none
+793721c23c,db-61.nguyen.info,0,faker,benign_faker_hostname_vi,ip_context
+6a38a830ff,/javascript/catinfo.manifest,0,goodqueries_sample,goodqueries_sample__c4,none
+d4ce62a788,%27%7C%7Cecho$IFSUDYXOW$((85%2B10))$(echo$IFSUDYXOW)UDYXOW%7C,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+c4bafd90f7,/javascript/sched.key,0,goodqueries_sample,goodqueries_sample__c4,none
+caeb593da9,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20LVMWXB%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%209%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+8026e0683b,/javascript/agent.php3,0,goodqueries_sample,goodqueries_sample__c4,none
+b0f8746b0e,%2522%0A%20str%3D%24%28echo%20ZLOWUA%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+8a14d21d35,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XGXYKB%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c11,none
+eebbf3e1ff,/javascript/traceroute.asp,0,goodqueries_sample,goodqueries_sample__c4,none
+a3bc5be9d9,/javascript/full.ppt,0,goodqueries_sample,goodqueries_sample__c4,none
+2c688481f9,/javascript/libs.pm,0,goodqueries_sample,goodqueries_sample__c4,none
+8b8fca7cda,/javascript/ig.so,0,goodqueries_sample,goodqueries_sample__c4,none
+518b5bc301,%2527%0A%20str%3D%24%28echo%20BNZVGD%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+ed9676241b,/javascript/patch.pm,0,goodqueries_sample,goodqueries_sample__c4,none
+b4de261370,%22%7C%20%5B%201%20-ne%20%24%28echo%20MNLBVU%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+45984c6451,value;ls${IFS}$9-la,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+f331cf8ef8,%2527%0A%20str%3D%24%28echo%20BNZVGD%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+d69f35cb76,Cái nơi sau của.,0,faker,benign_faker_sentence_vi,natural_text
+69e0be3a41,Trong chưa người một được gần bạn.,0,faker,benign_faker_sentence_vi,natural_text
+da55656126,clear.avi,0,faker,benign_faker_filename_en,filename
+610edbd352,/javascript/cf.py,0,goodqueries_sample,goodqueries_sample__c4,none
+278b2bc192,%0A%20str%3D%24%28echo%20KQPSND%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+48afa67211,%22%7C%20%5B%204%20-ne%20%24%28echo%20MNLBVU%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+c10be36554,/javascript/intl.cfm,0,goodqueries_sample,goodqueries_sample__c4,none
+c51daf380b,/javascript/sp.stackdump,0,goodqueries_sample,goodqueries_sample__c4,none
+0b7236833e,lt-98.dang.com,0,faker,benign_faker_hostname_vi,ip_context
+dbfb83bad1,"value""&&cat /etc/passwd""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+d2d351c0f1,/javascript/yt.sql,0,goodqueries_sample,goodqueries_sample__c4,none
+02d78041de,"value"";cat /etc/passwd""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+04d5a130c7,%2522%0A%20str%3D%24%28echo%20OUJVKX%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%7C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+b93c93f676,%2527%0A%20str%3D%24%28echo%20BNZVGD%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+a7406485c7,/javascript/stored.dat,0,goodqueries_sample,goodqueries_sample__c4,none
+0a2febd08c,Chưa như giữa tôi bạn để cho.,0,faker,benign_faker_sentence_vi,natural_text
+271bea2bd6,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDTLTK%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%5C%5C,1,command-injection-commix,command-injection-commix__c11,none
+ce11016fc6,couple.doc,0,faker,benign_faker_filename_en,filename
+55aa3a66cd,%22%7C%20%5B%206%20-ne%20%24%28echo%20MNLBVU%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c28,none
+318e1b8b06,/javascript/m.cs,0,goodqueries_sample,goodqueries_sample__c4,none
+80f166b4bf,%7C%20%5B%202%20-ne%20%24%28echo%20JNNROP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+35294e5962,&&echo%20SIYJRM$((59%2B4))$(echo%20SIYJRM)SIYJRM%7C,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+1c63d5de66,%20echo%20OWFQEK$((68%2B50))$(echo%20OWFQEK)OWFQEK%7C,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+a04a3f82f7,%22%0A%20str%3D%24%28echo%20ROWALZ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%27,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+5948903702,%7Cecho$IFSAQWEET$((38%2B66))$(echo$IFSAQWEET)AQWEET\,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+9d4e19ef8d,%22%7Cecho$IFSEICSZJ$((51%2B32))$(echo$IFSEICSZJ)EICSZJ|,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+50a27c544c,lt-52.le.com,0,faker,benign_faker_hostname_vi,ip_context
+9d627e6dd3,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20LVVACM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%208%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c7,none
+509d82ebed,"{name: 'James Atkins', job: 'Neurosurgeon'}",0,faker,benign_faker_profile_en,json
+21e2b18983,/javascript/eu.jhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+68ec59c42b,%27%7C%20%5B%203%20-ne%20%24%28echo%20TYMEOG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+c9b290ed2f,/javascript/manifest.js,0,goodqueries_sample,goodqueries_sample__c4,none
+b66a83408f,laptop`whoami`,1,generated,tpl_backtick__search_field,backtick
+26cc8ce8d3,/javascript/program.htm,0,goodqueries_sample,goodqueries_sample__c4,none
+0fe3f8d50f,Tại chưa có số.,0,faker,benign_faker_sentence_vi,natural_text
+49efd75a4c,Nào bạn cho đó thế nếu như nào.,0,faker,benign_faker_sentence_vi,natural_text
+047c1d2c85,%22%7C%20%5B%209%20-ne%20%24%28echo%20CINWSA%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c28,none
+1327a39a9b,db-46.duong.com,0,faker,benign_faker_hostname_vi,ip_context
+82c09b470e,Khi như về người.,0,faker,benign_faker_sentence_vi,natural_text
+9d4b9d0529,lt-55.vu.net,0,faker,benign_faker_hostname_vi,ip_context
+d0ef8f3945,/javascript/outreach.log,0,goodqueries_sample,goodqueries_sample__c4,none
+eb9dae780e,/javascript/batch.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+429de042d0,/javascript/bkup.rtf,0,goodqueries_sample,goodqueries_sample__c4,none
+81f6bac73c,/javascript/hu.txt,0,goodqueries_sample,goodqueries_sample__c4,none
+7dbcbfcfba,report%0d%0acat /etc/passwd.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+4cea2ce70c,/javascript/j2me.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+5599486600,/javascript/shop.doc,0,goodqueries_sample,goodqueries_sample__c4,none
+cc4b7c7571,report%0d%0aid.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+116fbfb4a2,/javascript/entertainment.jar,0,goodqueries_sample,goodqueries_sample__c4,none
+7731c671a5,/javascript/requisition.trace,0,goodqueries_sample,goodqueries_sample__c4,none
+42276d204a,/javascript/policies.ora,0,goodqueries_sample,goodqueries_sample__c4,none
+1a006b468a,%2522%0A%20str%3D%24%28echo%20TNOFGN%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%202%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+b9c581a6e3,%7C%20%5B%205%20-ne%20%24%28echo%20CSMWFN%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c42,none
+0f019a10b6,/javascript/jhtml.temp,0,goodqueries_sample,goodqueries_sample__c4,none
+bb64eae91a,Vậy vẫn theo.,0,faker,benign_faker_sentence_vi,natural_text
+86740e3ffb,Cái một như vẫn tại để.,0,faker,benign_faker_sentence_vi,natural_text
+0ef2e78816,value';id',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+93465691a5,speak.json,0,faker,benign_faker_filename_en,filename
+c902aea379,%26%26echo%20KEKCUX$((55%2B27))$(echo%20KEKCUX)KEKCUX%22,1,command-injection-commix,command-injection-commix__c55,dollar_paren
+2519ec2710,web-60.tran.net,0,faker,benign_faker_hostname_vi,ip_context
+340b3e3bd2,Mỗi với nhưng từ nhưng.,0,faker,benign_faker_sentence_vi,natural_text
+2e25ecaf10,laptop`ps aux`,1,generated,tpl_backtick__search_field,backtick
+6cbd3eb7b2,/javascript/guests.rtf,0,goodqueries_sample,goodqueries_sample__c4,none
+cf012600b9,%3Becho$IFSIHCKXN$((49%2B14))$(echo$IFSIHCKXN)IHCKXN%22,1,command-injection-commix,command-injection-commix__c27,dollar_paren
+5e843682a1,Trong vài bạn hơn của một từ từ.,0,faker,benign_faker_sentence_vi,natural_text
+3da597bd6c,echo$IFSUBGQBR$((73%2B83))$(echo$IFSUBGQBR)UBGQBR%2F%2F,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+e64196418c,%27%7C%20%5B%205%20-ne%20%24%28echo%20TYMEOG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+9c9f569a2e,email-18.pham.com,0,faker,benign_faker_hostname_vi,ip_context
+1e1c397b2e,/javascript/complaints.zip,0,goodqueries_sample,goodqueries_sample__c4,none
+ccd8595e12,"report
+pwd.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+2361fc1bef,"""||echo$IFSUQNTQG$((30%2B73))$(echo$IFSUQNTQG)UQNTQG&",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+be9e95a8c0,"""%20echo%20FBOBLU$((92%2B42))$(echo%20FBOBLU)FBOBLU%26",1,command-injection-commix,command-injection-commix__c55,dollar_paren
+e11304576b,'%7Cecho$IFSOIATXB$((46%2B82))$(echo$IFSOIATXB)OIATXB%7C,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+8c991ff729,"{name: 'Jason Evans', job: 'Administrator, sports'}",0,faker,benign_faker_profile_en,json
+9fa151ecf2,/javascript/cards.ep,0,goodqueries_sample,goodqueries_sample__c4,none
+fc2323eba7,/javascript/beehive.ep,0,goodqueries_sample,goodqueries_sample__c4,none
+e7fc5712a5,%7C%20%5B%203%20-ne%20%24%28echo%20GSLYBH%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+6709900943,/javascript/cgi-shl.db,0,goodqueries_sample,goodqueries_sample__c4,none
+74aa1e8321,/javascript/_test.asmx,0,goodqueries_sample,goodqueries_sample__c4,none
+9a8116f7db,/javascript/order.jhtml,0,goodqueries_sample,goodqueries_sample__c4,none
+878d722a89,/javascript/read.do,0,goodqueries_sample,goodqueries_sample__c4,none
+d22fb21898,/javascript/aa.doc,0,goodqueries_sample,goodqueries_sample__c4,none
+175202303d,/javascript/webdb.cgi,0,goodqueries_sample,goodqueries_sample__c4,none
+f7b680404d,/javascript/example.db,0,goodqueries_sample,goodqueries_sample__c4,none
+484d876b47,/javascript/session.temp,0,goodqueries_sample,goodqueries_sample__c4,none
+96a13d543e,Hơn với cũng cũng không không làm.,0,faker,benign_faker_sentence_vi,natural_text
+98c64d680e,/javascript/cpp.yml,0,goodqueries_sample,goodqueries_sample__c4,none
+0fcf90e42e,Của thay về có tại.,0,faker,benign_faker_sentence_vi,natural_text
+86a0d2c404,/javascript/outgoing.java,0,goodqueries_sample,goodqueries_sample__c4,none
+2e5e670e24,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FWEHDM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c7,none
+56f802f627,"value""&&ls -la""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+3f43e03f80,/javascript/pear.tgz,0,goodqueries_sample,goodqueries_sample__c4,none
+4bc6b1d2da,%22%0A%20str%3D%24%28echo%20WXKPIW%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+0ed058617d,/javascript/images.sfish,0,goodqueries_sample,goodqueries_sample__c4,none
+f7165eee8a,%7C%20%5B%207%20-ne%20%24%28echo%20PARKLW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+eb67bb211e,/javascript/reports.test,0,goodqueries_sample,goodqueries_sample__c4,none
+541dfdeec1,%2527%0A%20str%3D%24%28echo%20GBKLLU%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%202%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+8c45f70edf,/javascript/code.core,0,goodqueries_sample,goodqueries_sample__c4,none
+f991e55936,desktop-81.le.com,0,faker,benign_faker_hostname_vi,ip_context
+b9a08f20ca,/javascript/printer.bz2,0,goodqueries_sample,goodqueries_sample__c4,none
+c189d42be4,/javascript/temp.htm,0,goodqueries_sample,goodqueries_sample__c4,none
+c5ce78ebfd,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20JDGURS%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%7C,1,command-injection-commix,command-injection-commix__c11,none
+299d5906b9,/javascript/grants.aspx,0,goodqueries_sample,goodqueries_sample__c4,none
+55a1d80f1c,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20HBIFJL%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c11,none
+4074cf05fc,/javascript/cc.pm,0,goodqueries_sample,goodqueries_sample__c4,none
+9e62e3c470,/javascript/wysiwyg.dll,0,goodqueries_sample,goodqueries_sample__c4,none
+7d3fd082ca,/javascript/permission.bat,0,goodqueries_sample,goodqueries_sample__c4,none
+b72a6303d3,/javascript/whosonline.pem,0,goodqueries_sample,goodqueries_sample__c4,none
+6b0706aaeb,/javascript/web-console.orig,0,goodqueries_sample,goodqueries_sample__c4,none
+2aed32e82d,%22%26%20sleep%200%20%26%26%20str%3D%24%28echo%20RIIZGU%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%203%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c7,none
+e1b5f0e4a7,"value"";ls -la""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+8d7c1a88b6,"value""&&pwd""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+a1969ada1c,/javascript/legacy.old,0,goodqueries_sample,goodqueries_sample__c4,none
+cafba33a68,%2527%0A%20str%3D%24%28echo%20JKJFEG%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%209%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2527,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+b089bdb343,%2527%0A%20str%3D%24%28echo%20BNZVGD%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%204%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+f5db36a9cf,/javascript/webadmin.config,0,goodqueries_sample,goodqueries_sample__c4,none
+dcaeb876a3,/javascript/hr.gif,0,goodqueries_sample,goodqueries_sample__c4,none
+ec9c4d49da,/javascript/do.swf,0,goodqueries_sample,goodqueries_sample__c4,none
+985e15f110,/javascript/transport.o,0,goodqueries_sample,goodqueries_sample__c4,none
+4a324ed4b5,/javascript/toggle.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+5ae97db231,/javascript/null/,0,goodqueries_sample,goodqueries_sample__c4,none
+ce17a806e8,%22%0A%20str%3D%24%28echo%20HFODHQ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%204%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%23,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+2fc05d249b,/javascript/upload.config,0,goodqueries_sample,goodqueries_sample__c4,none
+b420d1ba85,Tôi để sẽ người hoặc hơn.,0,faker,benign_faker_sentence_vi,natural_text
+136d6711d1,"value"";id""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+7e704cfca0,Và để trong sẽ đã đã.,0,faker,benign_faker_sentence_vi,natural_text
+77776990f2,laptop`id`,1,generated,tpl_backtick__search_field,backtick
+7e166e766f,%2527%0A%20str%3D%24%28echo%20GBKLLU%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+8ff5ee5440,%2522%0A%20str%3D%24%28echo%20ZLOWUA%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%201%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+d5610fdde2,%2522%26%20sleep%200%20%26%26%20str%3D%24%28echo%20YTDCVX%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c7,none
+a65b57d635,%2522%7C%20%5B%203%20-ne%20%24%28echo%20DAZTLG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c28,none
+645caaae77,have.pptx,0,faker,benign_faker_filename_en,filename
+e7f9caaa62,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KMQXRC%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%208%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2527,1,command-injection-commix,command-injection-commix__c11,none
+201226d64a,/javascript/whosonline.doc,0,goodqueries_sample,goodqueries_sample__c4,none
+7486715033,%7Cecho$IFSUSIKAS$((1%2B68))$(echo$IFSUSIKAS)USIKAS%2F%2F,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+b5630bc19e,%2522%7C%20%5B%203%20-ne%20%24%28echo%20JUHLQP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+15ace8442c,/javascript/request.dump,0,goodqueries_sample,goodqueries_sample__c4,none
+9204b72775,/javascript/embed.ora,0,goodqueries_sample,goodqueries_sample__c4,none
+5a274edb5a,"value"";pwd""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+62ad9f2e0c,email-76.vu.biz,0,faker,benign_faker_hostname_vi,ip_context
+ac05b2a70b,/javascript/weblog.err,0,goodqueries_sample,goodqueries_sample__c4,none
+a1a08faf19,%7C%20%5B%202%20-ne%20%24%28echo%20PARKLW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+c4ef05db74,|echo$IFSLXLUOD$((68%2B51))$(echo$IFSLXLUOD)LXLUOD,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+958b7d61b8,Và với vì.,0,faker,benign_faker_sentence_vi,natural_text
+0538f58c6b,/javascript/ws_ftp.swf,0,goodqueries_sample,goodqueries_sample__c4,none
+d71252a28e,echo$IFSXZNCQP$((56%2B62))$(echo$IFSXZNCQP)XZNCQP%7C,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+1539e401f9,Hơn đã với đúng như vậy.,0,faker,benign_faker_sentence_vi,natural_text
+e69283d68f,Nào nhiều mà là không mà.,0,faker,benign_faker_sentence_vi,natural_text
+34b534d626,%22%0A%20str%3D%24%28echo%20LOCFPZ%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20//,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+c0ab37b416,%2522%26%20sleep%200%20%26%26%20str%3D%24%28echo%20UFBEAG%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+77830af4c8,'%7Cecho$IFSRSOBXL$((32%2B20))$(echo$IFSRSOBXL)RSOBXL|,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+f3a1e1fadb,'%7C%7Cecho$IFSBNFEWG$((17%2B39))$(echo$IFSBNFEWG)BNFEWG,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+ad8ac1dcde,/javascript/devices.old,0,goodqueries_sample,goodqueries_sample__c4,none
+3050188d77,"""&echo$IFSUZTQCV$((96%2B22))$(echo$IFSUZTQCV)UZTQCV%26",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+8aee6b00b9,"value""&&id""",1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+7ec97e1569,/javascript/sws/,0,goodqueries_sample,goodqueries_sample__c4,none
+2b941fbc8d,%2522%7C%20%5B%204%20-ne%20%24%28echo%20EHUILY%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c28,none
+0d60846e0a,%2522%7C%20%5B%206%20-ne%20%24%28echo%20JUHLQP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+6b620c58bb,%22%7C%20%5B%206%20-ne%20%24%28echo%20SYHTME%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+9ee9d83a4f,/javascript/vfs.dat,0,goodqueries_sample,goodqueries_sample__c4,none
+f4c0d25637,/javascript/windows.tmp,0,goodqueries_sample,goodqueries_sample__c4,none
+506e89d8a9,/javascript/bins.pem,0,goodqueries_sample,goodqueries_sample__c4,none
+b6aefd1131,%27%26%20sleep%200%20%26%26%20str%3D%24%28echo%20AGKSYR%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%255C%255C,1,command-injection-commix,command-injection-commix__c7,none
+f97ce3c164,/javascript/styles.doc,0,goodqueries_sample,goodqueries_sample__c4,none
+42bee9ae12,value';ps aux',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+6a8eb8dfc7,/javascript/_source.svn-base,0,goodqueries_sample,goodqueries_sample__c4,none
+d0659c07c9,Của sau đã có cũng giữa nhiều.,0,faker,benign_faker_sentence_vi,natural_text
+934b79b8c1,Rất giữa giữa nhưng điều.,0,faker,benign_faker_sentence_vi,natural_text
+58af3e5b16,/javascript/notify.jpg,0,goodqueries_sample,goodqueries_sample__c4,none
+d85b503c5c,%27%7C%20%5B%202%20-ne%20%24%28echo%20TYMEOG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+b6d285b1d5,report%0als -la.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+19f390dc6d,"%22|echo$IFSCSECOD$((94%2B97))$(echo$IFSCSECOD)CSECOD""",1,command-injection-commix,command-injection-commix__c8,dollar_paren
+daf4673266,"{name: 'Jacob Gutierrez', job: 'Multimedia programmer'}",0,faker,benign_faker_profile_en,json
+5fd23c38da,/javascript/domain.cfg,0,goodqueries_sample,goodqueries_sample__c4,none
+39abbd507a,value&&uname${IFS}$9-a,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+4082f755a4,/javascript/showcat.meta,0,goodqueries_sample,goodqueries_sample__c4,none
+23ad429089,/javascript/standard.swf,0,goodqueries_sample,goodqueries_sample__c4,none
+1d9c935c5e,/javascript/pos.php,0,goodqueries_sample,goodqueries_sample__c4,none
+50a2889877,%7Cecho$IFSEJJUPB$((40%2B97))$(echo$IFSEJJUPB)EJJUPB&,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+eff4b4ee08,/javascript/email.zip,0,goodqueries_sample,goodqueries_sample__c4,none
+db5768033b,value|uname${IFS}$9-a,1,generated,tpl_ifs_substitution__generic_field,ifs_var
+9e9eda17ca,%22%0A%20str%3D%24%28echo%20WXKPIW%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%201%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+7c679e772a,religious.mov,0,faker,benign_faker_filename_en,filename
+a64f737db3,/javascript/patches.shtml,0,goodqueries_sample,goodqueries_sample__c4,none
+fb471f2f74,%0A%20str%3D%24%28echo%20JADKKF%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+13295cbc74,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDAIBC%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c11,none
+89d20401bc,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XGXYKB%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2522,1,command-injection-commix,command-injection-commix__c11,none
+e23a4cf246,Hoặc nơi như để dưới với.,0,faker,benign_faker_sentence_vi,natural_text
+1551b13145,/javascript/weblog.pfx,0,goodqueries_sample,goodqueries_sample__c4,none
+aa667bc125,/javascript/pkg.bin,0,goodqueries_sample,goodqueries_sample__c4,none
+9f028e007f,/javascript/spy.pm,0,goodqueries_sample,goodqueries_sample__c4,none
+58bc80619e,echo$IFSUMOYPF$((66%2B31))$(echo$IFSUMOYPF)UMOYPF//,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+04d1a2fb00,%22%0A%20str%3D%24%28echo%20WXKPIW%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%257C,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+0785c60d24,%7Cecho$IFSUJPLGH$((62%2B6))$(echo$IFSUJPLGH)UJPLGH,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+b5b2ec3901,/javascript/profiling.o,0,goodqueries_sample,goodqueries_sample__c4,none
+1d68223ded,%22&&echo$IFSUZURTK$((89%2B35))$(echo$IFSUZURTK)UZURTK,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+c1b0c54c0f,/javascript/fabric.nsf,0,goodqueries_sample,goodqueries_sample__c4,none
+44d03b6cb8,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20XDAIBC%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%205%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c11,none
+7ed2a1ecb7,%22%7C%20%5B%209%20-ne%20%24%28echo%20GBBAUV%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+04a6671877,"report
+ls -la.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+ced942d2da,benefit.css,0,faker,benign_faker_filename_en,filename
+fdd0898561,"""%7C%7Cecho%20JDTYJX$((18%2B24))$(echo%20JDTYJX)JDTYJX//",1,command-injection-commix,command-injection-commix__c55,dollar_paren
+1911eda5fc,%22%7C%20%5B%203%20-ne%20%24%28echo%20ADQAHN%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c28,none
+a7afc87367,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20KJBKAZ%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%207%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20,1,command-injection-commix,command-injection-commix__c11,none
+ce1f681f5d,politics.mp4,0,faker,benign_faker_filename_en,filename
+2855d98c3f,/javascript/treasury.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+02b3cff2f7,lt-79.vu.info,0,faker,benign_faker_hostname_vi,ip_context
+0438fff860,/javascript/actions.cc,0,goodqueries_sample,goodqueries_sample__c4,none
+473fc9feb7,/javascript/location.cs,0,goodqueries_sample,goodqueries_sample__c4,none
+36e2ac6199,/javascript/ids.error,0,goodqueries_sample,goodqueries_sample__c4,none
+f430c35037,%2522%0A%20str%3D%24%28echo%20JLTOOU%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%26,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+76509742d1,/javascript/realestate/,0,goodqueries_sample,goodqueries_sample__c4,none
+1bbf4f266f,/javascript/alpha.lst,0,goodqueries_sample,goodqueries_sample__c4,none
+503aafd7fd,/javascript/level.php3,0,goodqueries_sample,goodqueries_sample__c4,none
+17770c0bff,value'&&id',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+0140f89646,Tại cho của.,0,faker,benign_faker_sentence_vi,natural_text
+6b0a4571f6,/javascript/fcgi.tar.bz2,0,goodqueries_sample,goodqueries_sample__c4,none
+e1b79feb0a,/javascript/threads.war,0,goodqueries_sample,goodqueries_sample__c4,none
+afd50bcfed,/javascript/bb.xsl,0,goodqueries_sample,goodqueries_sample__c4,none
+8767a113bb,/javascript/not.png,0,goodqueries_sample,goodqueries_sample__c4,none
+3b4e779896,%22%7C%20%5B%205%20-ne%20%24%28echo%20XWWMIW%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%23,1,command-injection-commix,command-injection-commix__c28,none
+33647e43a9,/javascript/webbbs.config,0,goodqueries_sample,goodqueries_sample__c4,none
+c401f81712,/javascript/openejb.dat,0,goodqueries_sample,goodqueries_sample__c4,none
+ca528de578,Từ để đang với.,0,faker,benign_faker_sentence_vi,natural_text
+02af1d1c03,%2522%0A%20str%3D%24%28echo%20TNOFGN%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%206%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+44cfb6468a,%0A%20str%3D%24%28echo%20XELPPN%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%208%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+be81c64f3b,"&echo$IFSUFORJE$((32%2B39))$(echo$IFSUFORJE)UFORJE""",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+e25f329c7a,/javascript/traceroute.stackdump,0,goodqueries_sample,goodqueries_sample__c4,none
+f1fd873c26,%2527%0A%20str%3D%24%28echo%20GGPYAR%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%205%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2522,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+faec592677,%2527%26%20sleep%200%20%26%26%20str%3D%24%28echo%20PRKGES%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%206%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%2526,1,command-injection-commix,command-injection-commix__c11,none
+1379f60d5a,%22||echo$IFSXJETQS$((39%2B59))$(echo$IFSXJETQS)XJETQS,1,command-injection-commix,command-injection-commix__c8,dollar_paren
+f7dc1fcf79,"||echo$IFSUEGFHX$((37%2B52))$(echo$IFSUEGFHX)UEGFHX""",1,command-injection-commix,command-injection-commix__c39,dollar_paren
+3cb1169b93,/javascript/build.java,0,goodqueries_sample,goodqueries_sample__c4,none
+00cc6b8618,report%0d%0als -la.txt,1,generated,tpl_newline_sep__filename_field,newline_encoded
+280ffd269c,/javascript/pool.rtf,0,goodqueries_sample,goodqueries_sample__c4,none
+9b8427ae75,value'&&cat /etc/passwd',1,generated,tpl_quoted_breakout__generic_field,quoted_breakout
+b5cd674363,"{name: 'Heather Woodard', job: 'Mudlogger'}",0,faker,benign_faker_profile_en,json
+020ad47051,%2522%7C%20%5B%201%20-ne%20%24%28echo%20JLFVEC%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+d1f384b3eb,/javascript/mina.dll,0,goodqueries_sample,goodqueries_sample__c4,none
+5afe10e023,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20FWEHDM%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%27,1,command-injection-commix,command-injection-commix__c7,none
+57fe1b1029,Như làm đến lớn tại của.,0,faker,benign_faker_sentence_vi,natural_text
+6a874f70f5,%22%7C%20%5B%201%20-ne%20%24%28echo%20SYHTME%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+c7bf46d9ce,"report
+whoami.txt",1,generated,tpl_newline_sep__filename_field,newline_encoded
+850e5a120c,%2522%7C%20%5B%202%20-ne%20%24%28echo%20DAZTLG%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%257C,1,command-injection-commix,command-injection-commix__c28,none
+6165534eaf,/javascript/incubator.csv,0,goodqueries_sample,goodqueries_sample__c4,none
+67080b3cef,%26%26echo$IFSUCPLDI$((23%2B55))$(echo$IFSUCPLDI)UCPLDI%2F%2F,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+d4239a15eb,%2522%0A%20str%3D%24%28echo%20SFURKW%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%203%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%2526,1,command-injection-commix,command-injection-commix__c34,newline_encoded
+94b6d2dab3,especially.numbers,0,faker,benign_faker_filename_en,filename
+ddcb64df1b,%7C%20%5B%209%20-ne%20%24%28echo%20JNNROP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20//,1,command-injection-commix,command-injection-commix__c42,none
+11ac89430f,true.flac,0,faker,benign_faker_filename_en,filename
+b103d432d7,%27%0A%20str%3D%24%28echo%20BXLXVP%29%0A%20str1%3D%24%7B%23str%7D%0A%20if%20%5B%207%20-ne%20%24%7Bstr1%7D%20%5D%0A%20then%20sleep%200%0A%20else%20sleep%201%0A%20fi%20%22,1,command-injection-commix,command-injection-commix__c1,newline_encoded
+510ee0f3cc,/javascript/monitor,0,goodqueries_sample,goodqueries_sample__c4,none
+b5a1d70eb0,%2522%7C%20%5B%209%20-ne%20%24%28echo%20JUHLQP%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20,1,command-injection-commix,command-injection-commix__c28,none
+444b18cb54,%2522%7C%20%5B%208%20-ne%20%24%28echo%20JRAZZA%20%7C%20tr%20-d%20%27%5Cn%27%20%7C%20wc%20-c%29%20%5D%20%7C%7C%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c28,none
+3b8633c95d,echo$IFSUYTATZ$((65%2B69))$(echo$IFSUYTATZ)UYTATZ,1,command-injection-commix,command-injection-commix__c39,dollar_paren
+96f0ea7884,Nhưng mà thì theo tại.,0,faker,benign_faker_sentence_vi,natural_text
+efde21ab6a,/javascript/remote.ppt,0,goodqueries_sample,goodqueries_sample__c4,none
+de81aa9427,%26%20sleep%200%20%26%26%20str%3D%24%28echo%20CJCSGG%29%20%26%26%20str1%3D%24%7B%23str%7D%20%26%26%20%5B%204%20-eq%20%24%7Bstr1%7D%20%5D%20%26%26%20sleep%201%20%26,1,command-injection-commix,command-injection-commix__c7,none
