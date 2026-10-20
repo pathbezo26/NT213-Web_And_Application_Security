@@ -11,4 +11,8 @@ deep_learning/checkpoints/*
 # ket qua sinh ra khi chay
 semgrep/results/*.csv
 */results/*.csv
+<<<<<<< HEAD
 lab/.env
+=======
+lab/.env
+>>>>>>> 4c8dcb29297f1628372a626e86ff71d2e4498ace
