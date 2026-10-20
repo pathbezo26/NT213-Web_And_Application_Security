@@ -2,3 +2,6 @@ payload_id,input_text,label,source,category,group_id,notes
 b0001,8.8.8.8,0,handwritten,plain_ip,ip_ok,vi du
 b0002,ping -c 4 8.8.8.8,0,handwritten,cmd_as_data,cmd_data,input hop le co dau cach
 b0003,report_2024;final.pdf,0,handwritten,filename,fname,ten file co dau ; hop le
+m0001,127.0.0.1; id,1,payloadsallthethings,separator,ip_ping,vi du
+m0002,8.8.8.8 | whoami,1,payloadsallthethings,pipe,ip_ping,vi du
+m0003,host$(sleep 5),1,commix,substitution,subst,vi du
