@@ -12,8 +12,9 @@ OS Command Injection (CWE-78):
 > **Phạm vi:** đồ án phát hiện ở mức payload, tức là phân loại chuỗi đầu vào. Kết quả
 > không chứng minh mô hình hiểu được ngữ cảnh thực thi lệnh.
 >
-> **An toàn:** mọi thử nghiệm tấn công và né tránh chỉ chạy trong lab Docker **cách ly**
-> (mạng `internal`, không map cổng ra host).
+> **An toàn:** mọi thử nghiệm tấn công và né tránh chỉ chạy trong lab Docker có
+> mạng `internal: true`. DVWA và bWAPP không publish cổng ra host. Không đưa payload
+> thử nghiệm vào hệ thống bên ngoài lab.
 
 ---
 
@@ -49,7 +50,7 @@ pip install torch --index-url https://download.pytorch.org/whl/cpu
 python scripts/check_env.py
 
 # 5) Khởi động lab DVWA + bWAPP
-docker compose up -d
+docker compose -f lab/docker-compose.yml up -d
 ```
 
 ---
@@ -61,7 +62,7 @@ Chạy tất cả lệnh từ **thư mục gốc** của dự án.
 | Việc | Lệnh | Tuần |
 | --- | --- | --- |
 | Quét Semgrep và chấm điểm Exp.1 | `python semgrep/run_scan.py --version v0` | 1–3 |
-| Chia tập và kiểm tra rò rỉ | `python data/processed/train_test_split/split_and_check.py` | 2 |
+| Sinh lại train/val/test và kiểm tra rò rỉ | `python data/processed/train_test_split/split_and_check.py` | 2 |
 | Chạy thử trích đặc trưng ML | `python classical_ml/features.py` | 2–3 |
 | Train ML cổ điển | `python classical_ml/train.py` | 3 |
 | Chạy thử tokenize mức ký tự | `python deep_learning/tokenizer.py` | 2–3 |
@@ -78,9 +79,26 @@ Chạy tất cả lệnh từ **thư mục gốc** của dự án.
 **Đã chạy được**
 
 - `semgrep/`: rule v0 và 12 testcase. Exp.1 đạt **TP=6, FP=0, FN=0, TN=6**.
+- `report/tom_tat_tai_lieu_tuan_1.md`: bảng khảo sát 6 tài liệu liên quan theo bài
+  toán, phương pháp, dữ liệu, hạn chế và mức độ liên quan với đề tài.
 - `classical_ml/features.py`, `deep_learning/tokenizer.py`
-- `data/processed/train_test_split/split_and_check.py`
-- `scripts/check_env.py`, `docker-compose.yml`
+- `data/processed/train_test_split/split_and_check.py`: entry point theo nền tảng;
+  kiểm tra dataset chuẩn và sinh ba tập theo schema 7 cột. Lần kiểm tra gần nhất đạt
+  **PASS**, không có xung đột nhãn, payload trùng giữa tập hoặc rò rỉ `group_id`.
+- `scripts/check_env.py`, `lab/docker-compose.yml`
+
+**Dataset Tuần 2 — hoàn thành khoảng 90%**
+
+- File chuẩn duy nhất: `data/processed/dataset_all.csv`.
+- Tổng cộng **18.142** payload: 9.393 benign và 8.749 malicious.
+- Train: 12.713; validation: 2.710; test: 2.719.
+- Các file `data/splits/*.csv` được sinh tự động từ cột `split`, không được sửa
+  riêng lẻ.
+- Schema dùng cho ML/DL: `payload_id,input_text,label,source,category,group_id,notes`.
+- Báo cáo kiểm tra gần nhất: `reports/week2_dataset_validation.txt`.
+- Phần còn lại trước khi khóa dataset: rà soát chất lượng độc lập 678 mẫu
+  `benign_special_char`, đối chiếu tài liệu gốc CSIC 2010 để xác nhận cách diễn
+  giải nhãn `normal`, và bổ sung quy trình tái tạo end-to-end từ dữ liệu nguồn thô.
 
 **Mới có khung (hoàn thiện trong Tuần 2–6)**
 
@@ -100,7 +118,7 @@ t05-command-injection-detection/
 ├── data/
 │   ├── raw/                     # Dữ liệu gốc (Commix, PayloadsAllTheThings, CSIC 2010), KHÔNG sửa
 │   ├── processed/               # Dữ liệu đã chuẩn hóa: malicious, benign, evasion (*.csv)
-│   │   └── train_test_split/    # Chia tập theo group_id + kiểm tra rò rỉ
+│   ├── splits/                  # Train/val/test sinh từ dataset_all.csv
 │   └── sqli_xss_testset/        # Test set SQLi/XSS cho Exp.5
 ├── semgrep/                     # Hướng 1: phân tích tĩnh PHP
 │   ├── rules/                   # Rule taint phát hiện CI (CWE-78)
@@ -119,13 +137,28 @@ t05-command-injection-detection/
 ├── notebooks/                   # EDA, biểu đồ, phân tích lỗi
 ├── report/                      # Đề cương, báo cáo, slide
 ├── scripts/check_env.py         # Kiểm tra môi trường
-├── docker-compose.yml           # Lab DVWA + bWAPP (mạng cách ly)
+├── lab/
+│   ├── docker-compose.yml       # Lab DVWA + bWAPP
+│   └── README.md                # Cách dựng và kiểm tra lab
 ├── requirements.txt             # Thư viện Python
 └── SETUP_TUAN1.md               # Hướng dẫn setup Tuần 1
 ```
 
 Mỗi hướng (`semgrep/`, `classical_ml/`, `deep_learning/`, `lab_verification/`) có thư
 mục `results/` riêng để lưu kết quả khi chạy.
+
+### Tạo và kiểm tra các tập dữ liệu
+
+Không chia lại ngẫu nhiên từ các file con. Cột `split` và `group_id` trong
+`dataset_all.csv` là nguồn chuẩn. Chạy lệnh sau để kiểm tra và xuất lại các tập:
+
+```bash
+python data/processed/train_test_split/split_and_check.py
+```
+
+Lệnh chỉ xuất file khi dataset thỏa các điều kiện: schema hợp lệ, ID duy nhất, nhãn
+thuộc `{0, 1}`, không có payload trùng giữa các tập, không có payload trùng nhưng
+khác nhãn và mỗi `group_id` chỉ thuộc một split.
 
 ---
 

@@ -3,23 +3,17 @@ services:
     image: ghcr.io/digininja/dvwa:068d974 # tag commit mới nhất được lấy từ https://github.com/digininja/DVWA/pkgs/container/dvwa
     environment:
       - DB_SERVER=db
-    env_file:
-      - .env
     depends_on: [db]
-    ports:
-      - "127.0.0.1:4280:80"
     networks: [labnet]
     restart: unless-stopped
 
   db:
     image: mariadb:10.11
-    env_file:
-      - .env
     environment:
-      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-      - MYSQL_DATABASE=${MYSQL_DATABASE}
-      - MYSQL_USER=${MYSQL_USER}
-      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD:-dvwa_root_lab_only}
+      - MYSQL_DATABASE=${MYSQL_DATABASE:-dvwa}
+      - MYSQL_USER=${MYSQL_USER:-dvwa}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-dvwa_lab_only}
     volumes:
       - dvwa_db:/var/lib/mysql
     networks: [labnet]
@@ -27,12 +21,11 @@ services:
 
   bwapp:
     image: raesene/bwapp
-    ports:
-      - "127.0.0.1:4281:80"
     networks: [labnet]
     restart: unless-stopped
 
 networks:
   labnet:
+    internal: true
 volumes:
   dvwa_db:

@@ -1,24 +1,30 @@
 # Dataset: Phát hiện Command Injection bằng ML/DL (T05)
 
+**Trạng thái Tuần 2: khoảng 90%.** Dataset đã được hợp nhất, gán nhóm, chia
+train/validation/test và kiểm tra tính toàn vẹn. Dataset chưa được khóa chính thức
+do còn các bước kiểm soát chất lượng và tái lập từ nguồn thô được ghi tại mục 6.
+
 Dataset payload lành tính/độc hại, dùng chung cho mảng ML cổ điển và DL (payload-level detection). Tài liệu này là nội dung cho phần "Mô tả Dataset" của báo cáo Tuần 2, theo kế hoạch v5 (`T05_Plan_NT213.xlsx`).
 
 Phạm vi: đồ án chỉ phân loại **chuỗi payload** có dấu hiệu command injection hay không, không tuyên bố model hiểu ngữ cảnh thực thi lệnh thật trên hệ thống.
 
 ---
 
-## 1. Schema (`dataset/processed/dataset_all.csv`)
+## 1. Schema
+
+`data/processed/dataset_all.csv` lưu dữ liệu hợp nhất cùng các trường nội bộ phục vụ
+tiền xử lý. Ba file dùng trực tiếp cho ML/DL trong `data/splits/` tuân theo schema
+của nền tảng:
 
 | Cột | Ý nghĩa |
 |---|---|
 | `payload_id` | Mã ổn định, không đổi sau khi gán |
-| `payload` | Chuỗi gốc, không chỉnh sửa (đã chuẩn hóa Unicode NFC) |
+| `input_text` | Chuỗi gốc đưa vào ML/DL |
 | `label` | `1` = command injection, `0` = lành tính |
-| `category` | `cmdi`, `benign_normal`, `benign_special_char`, `benign_csic` |
-| `source` | Nguồn gốc (Commix wordlist, PayloadsAllTheThings, tự viết, CSIC 2010) |
-| `context` | Ngữ cảnh dự kiến của mẫu lành tính (ô ip, tên file, ô tìm kiếm...) |
-| `technique` | Kỹ thuật/khuôn cụ thể (giữ lại từ `category` cũ: `semicolon`, `pipe`, `ifs_var`...) |
+| `source` | Một trong `commix`, `payloadsallthethings`, `handwritten`, `csic` |
+| `category` | Nhóm dữ liệu hoặc kỹ thuật |
 | `group_id` | Nhóm trùng/gần trùng — đơn vị dùng để chia tập, không rò rỉ |
-| `split` | `train`, `val` hoặc `test` |
+| `notes` | Nguồn chi tiết, context, technique và family được bảo toàn từ dữ liệu hợp nhất |
 
 Đơn vị payload: **giá trị của một tham số** (ví dụ giá trị ô ip trong DVWA), không phải cả HTTP request — áp dụng nhất quán cho mọi nguồn, kể cả CSIC.
 
@@ -38,7 +44,11 @@ Chỉ 2 nguồn theo đúng mục 4.3 kế hoạch v5 (payload tự sinh theo te
 
 **Lưu ý đã xác minh:** repo chính thức `commixproject/commix` không có file wordlist tĩnh (payload được sinh runtime trong code Python của tool) — SecLists là nguồn tĩnh gần nhất mô phỏng kỹ thuật Commix, không phải lấy trực tiếp từ repo đó. Đã kiểm tra thư mục `data/txt/` của `commixproject/commix`: chỉ chứa wordlist phụ trợ (tên tham số, đường dẫn, user-agent...), không phải payload command injection, nên không dùng.
 
-**SQLi/XSS lẫn trong wordlist:** theo yêu cầu mục 4.3, đã viết `scripts/filter-cmdi-only-v5.py` để tách payload SQLi/XSS ra khỏi 3 file trên (dành cho Exp.5 Tuần 4, không đưa vào train). Script dùng pattern cú pháp đặc trưng (không dùng từ khoá đơn lẻ dễ nhầm với cmdi time-based). Đã rà tay toàn bộ file Commix, không phát hiện lẫn SQLi/XSS; **script này có một lỗi đã biết, chưa sửa** — nó có thể gắn nhãn sai các payload cmdi nối với XSS làm payload hiển thị (ví dụ `;echo '<script>alert(1)</script>'`) thành XSS thuần, vì chỉ coi dấu hiệu `<script>` mà chưa kiểm tra có separator cmdi đi kèm. Chưa ảnh hưởng tới tập hiện tại vì việc tách đang làm bằng tay.
+**SQLi/XSS lẫn trong wordlist:** tập hiện tại được tách và rà soát thủ công; chưa có
+script lọc tự động được commit trong repo. Cần thận trọng với payload command
+injection có chứa chuỗi hiển thị giống XSS, ví dụ `;echo '<script>alert(1)</script>'`,
+vì không thể chỉ dựa vào từ khóa `<script>` để kết luận đây là XSS thuần. Đây là hạn
+chế về khả năng tái lập của bước tiền xử lý nguồn.
 
 ### 2.2 Benign (`label = 0`) — 9.393 dòng, 3 nhóm theo mục 4.4
 
@@ -69,17 +79,26 @@ Thứ tự bắt buộc: loại trùng đúng → gán `group_id` → chia tập
 
 1. **Loại trùng đúng**: gộp theo `payload.strip()`; chuỗi bị gán nhãn khác nhau giữa 2 nguồn được cảnh báo và ghi ra file riêng để giải quyết tay. Lần chạy gần nhất: **0 chuỗi xung đột nhãn**.
 2. **Gom near-duplicate → `group_id`**: TF-IDF ký tự 3-gram + cosine similarity, ngưỡng > 0.9, tính theo khối (`block_size=2000`) để tránh ma trận O(n²) khi dataset > ~10k dòng; nhóm bằng connected components (`scipy.sparse.csgraph.connected_components`).
-3. **Chia 70/15/15 theo `group_id`**: dùng thuật toán tự viết `stratified_group_split` (script `split-v5.py`), KHÔNG dùng `GroupShuffleSplit` thuần — xem lý do ở mục 4.
+3. **Chia 70/15/15 theo `group_id`**: dùng thuật toán tự viết `stratified_group_split` (script `scripts/split.py`), KHÔNG dùng `GroupShuffleSplit` thuần — xem lý do ở mục 4.
 4. **Kiểm tra rò rỉ**: assert mỗi `group_id` chỉ thuộc đúng 1 tập — đã pass.
 
-Lệnh chạy (seed=42, ngưỡng cosine 0.9):
+Lệnh đã dùng để gán nhóm và chia dữ liệu (seed=42, ngưỡng cosine 0.9):
 
 ```bash
-python scripts/split-v5.py --input dataset/processed/dataset_all.csv \
-    --output dataset/processed/dataset_all.csv --seed 42
+python scripts/split.py --input data/processed/dataset_all.csv \
+    --output data/processed/dataset_all.csv --seed 42
 ```
 
-Sau khi chia: **khoá file split, không sửa tập test về sau.**
+Sau khi cột `split` đã được chốt, sinh và kiểm tra ba file sử dụng cho huấn luyện
+bằng lệnh:
+
+```bash
+python data/processed/train_test_split/split_and_check.py
+```
+
+`dataset_all.csv` là nguồn chuẩn duy nhất. Không chỉnh sửa riêng
+`data/splits/train.csv`, `val.csv` hoặc `test.csv`, và không dùng test để lựa chọn
+mô hình hay siêu tham số.
 
 ---
 
@@ -110,12 +129,10 @@ So với `GroupShuffleSplit` thuần: độ lệch nhãn lớn nhất-nhỏ nh�
 
 | Script | Việc |
 |---|---|
-| `merge_sources.py` | Gộp các file nguồn thô về schema chung, giữ cột `context` |
-| `add-csv.py` | Gộp thêm 1 file CSV (payload, label) vào dataset chính |
-| `prep-csic-v5.py` | Lọc CSIC 2010 theo tiêu chí tường minh + downsample có seed |
-| `adapt-schema-v5.py` | Chuyển schema cũ → schema v5, loại nguồn chưa chốt (generated, csic-malicious), suy luận `context`/`category` |
-| `filter-cmdi-only-v5.py` | Tách SQLi/XSS lẫn trong wordlist malicious (có lỗi đã biết, xem mục 2.1) |
-| `split-v5.py` | Loại trùng, gán `group_id`, chia 70/15/15 cân bằng nhãn (`stratified_group_split`) |
+| `split.py` | Loại trùng, gán `group_id`, chia 70/15/15 cân bằng nhãn (`stratified_group_split`) |
+| `data/processed/train_test_split/split_and_check.py` | Entry point theo nền tảng để xuất và kiểm tra train/val/test |
+| `export_splits.py` | Kiểm tra xung đột, payload trùng giữa tập, rò rỉ nhóm và xuất schema 7 cột |
+| `validate_schema.py` | Kiểm tra schema 7 cột của các file train/val/test |
 
 ---
 
@@ -123,6 +140,10 @@ So với `GroupShuffleSplit` thuần: độ lệch nhãn lớn nhất-nhỏ nh�
 
 1. **Lệch nhãn giữa 3 tập còn tồn dư** (~11 điểm %, xem mục 4) do vài cụm benign gần-trùng chiếm tỷ trọng lớn so với kích thước tập val/test.
 2. **`benign_special_char` chưa qua rà soát chất lượng toàn diện** — 678 dòng viết tay, chưa có bước rà trùng/rà chất lượng độc lập bởi người thứ hai như mục 4.4 khuyến nghị.
-3. **Tách SQLi/XSS khỏi malicious thực hiện bằng tay**, không qua script tự động do lỗi đã biết ở `filter-cmdi-only-v5.py` (xem mục 2.1) — rủi ro thấp vì đã rà toàn bộ file nguồn, nhưng không có bằng chứng tái lập được bằng công cụ.
+3. **Tách SQLi/XSS khỏi malicious thực hiện bằng tay**, chưa có script tự động trong
+   repo (xem mục 2.1); vì vậy bước này chưa có bằng chứng tái lập được bằng công cụ.
 4. **CSIC 2010 dùng cho benign** dựa trên giả định nhãn `normal` ≈ lành tính; chưa đối chiếu lại với tài liệu gốc của bộ dữ liệu để xác nhận ý nghĩa nhãn.
 5. Phạm vi chỉ payload-level, giới hạn shell Linux/bash — không đại diện cho mọi hệ điều hành hoặc ngữ cảnh thực thi.
+6. **Quy trình tạo lại dataset từ nguồn thô chưa đầy đủ trong repo.** Dataset hiện
+   tại và bước chia có thể kiểm tra được, nhưng chưa thể chạy một lệnh từ toàn bộ
+   nguồn thô để tái tạo chính xác `dataset_all.csv`.
