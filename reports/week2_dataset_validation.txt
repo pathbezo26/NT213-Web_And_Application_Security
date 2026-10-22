@@ -1,0 +1,13 @@
+Dataset rows: 18142
+Unique payload_id: 18142
+Unique group_id: 13493
+Label conflicts: 0
+Exact payload leakage: 0
+Group leakage: 0
+
+Split summary:
+- train: 12713 rows (benign=6876, malicious=5837)
+- val: 2710 rows (benign=1159, malicious=1551)
+- test: 2719 rows (benign=1358, malicious=1361)
+
+RESULT: PASS
