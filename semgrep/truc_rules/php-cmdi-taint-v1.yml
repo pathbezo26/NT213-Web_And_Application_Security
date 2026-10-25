@@ -1,0 +1,34 @@
+rules:
+  - id: php-os-command-injection-taint-truc-v1
+    languages: [php]
+    severity: ERROR
+    message: >-
+      Du lieu tu request ($_GET/$_POST/...) di vao ham thuc thi lenh he dieu hanh
+      ma khong qua escapeshellarg(). Nguy co OS Command Injection (CWE-78).
+    metadata:
+      cwe: "CWE-78: OS Command Injection"
+      project: T05
+      version: v1-candidate
+    mode: taint
+    pattern-sources:
+      - pattern-either:
+          - pattern: $_GET
+          - pattern: $_POST
+          - pattern: $_REQUEST
+          - pattern: $_COOKIE
+          - pattern: $_SERVER
+          - pattern: $_FILES
+    pattern-sanitizers:
+      - pattern: escapeshellarg(...)
+    pattern-sinks:
+      - pattern-either:
+          - pattern: system($CMD, ...)
+          - pattern: exec($CMD, ...)
+          - pattern: shell_exec($CMD)
+          - pattern: passthru($CMD, ...)
+          - pattern: popen($CMD, ...)
+          - pattern: '`...`'
+          - patterns:
+              - pattern: proc_open($CMD, ...)
+              # proc_open voi mang doi so (PHP >= 7.4) khong goi shell -> khong phai sink
+              - pattern-not: proc_open([...], ...)
