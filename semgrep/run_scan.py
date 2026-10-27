@@ -10,6 +10,10 @@ Dau ra (schema RIENG cho Semgrep, KHONG co confidence):
 
 Chay (tu thu muc goc du an):
     python semgrep/run_scan.py --version v0
+    python semgrep/run_scan.py --version v1 --rules semgrep/truc_rules --extra
+
+--rules : file/thu muc rule (mac dinh semgrep/rules/ = v0)
+--extra : cham them semgrep/extra_cases/ (T13, T14; deu la ca vulnerable)
 """
 import argparse
 import csv
@@ -21,12 +25,13 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 RULES = HERE / "rules"
 CASES = HERE / "testcases_php"
+EXTRA = HERE / "extra_cases"
 OUT = HERE / "results"
 
 
-def run_semgrep():
-    cmd = ["semgrep", "--config", str(RULES), "--json", "--metrics=off",
-           "--quiet", str(CASES)]
+def run_semgrep(rules, targets):
+    cmd = ["semgrep", "--config", str(rules), "--json", "--metrics=off",
+           "--quiet", *map(str, targets)]
     proc = subprocess.run(cmd, capture_output=True, text=True)
     if proc.returncode not in (0, 1):
         sys.exit(f"Semgrep loi (exit {proc.returncode}):\n{proc.stderr}")
@@ -40,12 +45,16 @@ def run_semgrep():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--version", default="v0")
+    ap.add_argument("--rules", type=Path, default=RULES)
+    ap.add_argument("--extra", action="store_true")
     args = ap.parse_args()
 
-    flagged = run_semgrep()
+    groups = [("vulnerable", CASES / "vulnerable"), ("safe", CASES / "safe")]
+    if args.extra:
+        groups.append(("vulnerable", EXTRA))
+    flagged = run_semgrep(args.rules, [CASES] + ([EXTRA] if args.extra else []))
     rows, c = [], {"TP": 0, "FP": 0, "FN": 0, "TN": 0}
-    for label, folder in (("vulnerable", CASES / "vulnerable"),
-                          ("safe", CASES / "safe")):
+    for label, folder in groups:
         for php in sorted(folder.glob("*.php")):
             hit = php.name in flagged
             line, rule = flagged.get(php.name, (0, "-"))

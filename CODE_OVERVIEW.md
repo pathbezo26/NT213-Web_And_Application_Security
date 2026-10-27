@@ -36,10 +36,13 @@ trạng thái nào. Cách cài đặt và chạy xem trong [README.md](README.md
 | `rules/php-cmdi-taint.yml` | Rule phát hiện lỗi trong mã PHP, gồm 3 phần. **Source** là nơi dữ liệu người dùng đi vào (`$_GET`, `$_POST`, `$_REQUEST`, `$_COOKIE`, `$_SERVER`). **Sink** là hàm chạy lệnh (`system`, `exec`, `shell_exec`, `passthru`, `popen`, `proc_open`). **Sanitizer** là hàm làm sạch (`escapeshellarg`). Dữ liệu đi từ source tới sink mà không qua sanitizer thì rule báo lỗi. Riêng `proc_open` với mảng đối số bị loại trừ vì không gọi shell. |
 | `testcases_php/vulnerable/` (T01–T06) | 6 đoạn PHP có lỗi, rule **bắt buộc phải báo**. T01 nối chuỗi trực tiếp (giống DVWA), T02 qua biến trung gian, T03 dùng `$_POST`, T04 qua hàm lọc tự viết, T05 gán qua nhiều bước, T06 dùng `sprintf`. |
 | `testcases_php/safe/` (T07–T12) | 6 đoạn PHP an toàn, rule **không được báo**. T07 dùng API PHP thay vì shell, T08 dùng `proc_open` dạng mảng, T09 dùng allowlist, T10 dùng hằng số, T11 có ký tự đặc biệt nhưng chỉ là dữ liệu, T12 đã qua `escapeshellarg`. T11 và T12 là ca biên để thử độ chính xác của rule. |
-| `run_scan.py` | Chạy Semgrep trên 12 file, so với nhãn đúng, in TP/FP/FN/TN và ghi CSV. Nhãn đúng lấy theo tên thư mục (`vulnerable` hoặc `safe`). |
+| `truc_rules/php-cmdi-taint-v1.yml` | Rule v1: giữ nguyên v0, thêm source `$_FILES` và sink toán tử backtick. Đặt riêng để đối chiếu với v0. |
+| `extra_cases/` (T13–T14) | 2 ca vulnerable bổ sung: T13 tên file upload (`$_FILES`) vào `system()`, T14 `$_GET` vào backtick. Thiết kế để thử giới hạn của v0. |
+| `run_scan.py` | Chạy Semgrep trên 12 file, so với nhãn đúng, in TP/FP/FN/TN và ghi CSV. Nhãn đúng lấy theo tên thư mục (`vulnerable` hoặc `safe`). `--rules` chọn rule (mặc định `rules/`), `--extra` chấm thêm `extra_cases/` như ca vulnerable. |
 | `results/` | Nơi `run_scan.py` ghi file CSV kết quả. |
 
-Hiện rule đạt **TP=6, FP=0, FN=0, TN=6**. Tuy nhiên bộ test chỉ có 12 mẫu do nhóm tự
+Hiện rule v0 đạt **TP=6, FP=0, FN=0, TN=6** trên 12 testcase; khi thêm T13–T14, v0
+bỏ sót cả hai (FN=2) còn v1 đạt **TP=8, FP=0, FN=0, TN=6**. Tuy nhiên bộ test chỉ có 12 mẫu do nhóm tự
 viết, nên điểm 100% chưa chứng minh được rule tốt. Chỉ khi thêm ca mới mà rule vẫn đúng
 thì mới kết luận được điều đó.
 
@@ -100,9 +103,15 @@ Các cột chung của file CSV:
 | `lab_verification/results/` | Kết quả đo trong lab, tách riêng khỏi benchmark tĩnh. | Trống |
 | `dashboard/app.py` | Giao diện demo: nhập payload, hiện 3 kết quả song song (Tuần 6). | Khung |
 | `scripts/check_env.py` | Kiểm tra Python, Semgrep, Docker, thư viện ML, PyTorch; ghi `[OK]`/`[THIEU]` vào file bằng chứng. | Chạy được |
-| `notebooks/` | Dành cho Jupyter notebook: EDA, biểu đồ, phân tích False Positive. | Trống |
+| `scripts/build_malicious.py` | Đọc `Command Injection/Intruder/*.txt` của PayloadsAllTheThings trong `data/raw/`, lọc và gán `category`, ghi `data/processed/malicious.csv`. Chỉ xử lý văn bản, không chạy payload. Nguồn và commit ghi ở `data/SOURCES.md`. | Chạy được (cần `data/raw/`) |
+| `scripts/export_splits.py` | Xuất `data/splits/*.csv` từ cột `split` của `dataset_all.csv`. | Chạy được |
+| `notebooks/plot_results_template.py` | Vẽ 4 biểu đồ so sánh (Exp.1–6) ra `report/*.png`. Chưa có CSV kết quả thì dùng mock data. | Khung |
 | `report/de_cuong_2_3_trang.md` | Khung đề cương 2–3 trang theo plan. | Khung |
-| `report/bao_cao_9_chuong_(...).md` | File giữ chỗ cho báo cáo chính. | Trống |
+| `report/bao_cao_9_chuong_(...).md` | Báo cáo chính; hiện có chương kết quả với các bảng chờ điền số liệu Exp.1–6. | Khung |
+| `report/tom_tat_tai_lieu_tuan_1.md`, `report/Khao_sat_du_lieu_tuan1.md` | Tuần 1: tóm tắt 6 tài liệu liên quan; khảo sát nguồn dữ liệu. | Chạy được |
+| `report/Mo_ta_dataset_tuan2.md` | Tuần 2: mô tả dataset và cách chia tập, để chèn vào báo cáo. | Chạy được |
+| `report/Danh_gia_semgrep_v0_v1_Tuan3.md` | Tuần 3: đánh giá rule v0/v1 trên T01–T14. | Chạy được |
+| `report/Co_che_ne_tranh_tuan6.md` | Tuần 6: phân loại cơ chế né tránh. | Chạy được |
 | `report/slide/` | Nơi để slide. | Trống |
 | `reports/` | Nơi `check_env.py` ghi `env_check.txt`. | Trống cho tới khi chạy |
 
