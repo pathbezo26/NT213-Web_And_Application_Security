@@ -1,0 +1,31 @@
+{
+  "best_epoch": 6,
+  "test": {
+    "TP": 1356,
+    "FP": 0,
+    "FN": 5,
+    "TN": 1358,
+    "precision": 1.0,
+    "recall": 0.9963,
+    "f1": 0.9982,
+    "fpr": 0.0,
+    "fnr": 0.0037
+  },
+  "fpr_by_category": {
+    "benign_csic": {
+      "N": 892,
+      "FP": 0,
+      "fpr": 0.0
+    },
+    "benign_normal": {
+      "N": 391,
+      "FP": 0,
+      "fpr": 0.0
+    },
+    "benign_special_char": {
+      "N": 75,
+      "FP": 0,
+      "fpr": 0.0
+    }
+  }
+}

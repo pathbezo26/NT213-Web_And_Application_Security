@@ -1,0 +1,7 @@
+{
+  "best_epoch": 1,
+  "recall_nguon_la": 0.0082,
+  "TP": 4,
+  "N": 487,
+  "fpr_benign_test": 0.0
+}
