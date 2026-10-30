@@ -12,3 +12,4 @@ deep_learning/checkpoints/*
 semgrep/results/*.csv
 */results/*.csv
 lab/.env
+.venv-dl/
