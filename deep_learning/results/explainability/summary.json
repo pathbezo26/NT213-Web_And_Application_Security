@@ -1,0 +1,15 @@
+{
+  "checkpoint": "deep_learning\\best_cnn1d.pt",
+  "input": "data\\processed\\dataset_all.csv",
+  "split": "val",
+  "method": "both",
+  "seed": 42,
+  "samples_explained": 28,
+  "group_counts": {
+    "true_positive": 10,
+    "true_negative": 10,
+    "false_negative": 8
+  },
+  "mean_per_sample_shap_lime_spearman": 0.781614,
+  "interpretation": "positive attribution increases P(malicious); negative attribution decreases it"
+}
